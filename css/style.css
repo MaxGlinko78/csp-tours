@@ -1,7 +1,6293 @@
-body{
-	background-color: black;
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "TimesNewRomanPSMT";
+  src: url("fonts/times.eot");
+  src: url("fonts/times.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */ url("fonts/times.otf") format("opentype"), /* Open Type Font */ url("fonts/times.svg") format("svg"), /* Legacy iOS */ url("fonts/times.ttf") format("truetype"), /* Safari, Android, iOS */ url("fonts/times.woff") format("woff"), /* Modern Browsers */ url("fonts/times.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  
+  /* IE9 Compat Modes */
+  /* Modern Browsers */
 }
-
-h1{
-	color: white;
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "News701BT-RomanA";
+  src: url("fonts/7339.eot");
+  src: url("fonts/7339.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */ url("fonts/7339.otf") format("opentype"), /* Open Type Font */ url("fonts/7339.svg") format("svg"), /* Legacy iOS */ url("fonts/7339.ttf") format("truetype"), /* Safari, Android, iOS */ url("fonts/7339.woff") format("woff"), /* Modern Browsers */ url("fonts/7339.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  
+  /* IE9 Compat Modes */
+  /* Modern Browsers */
 }
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "Algerian";
+  src: url("fonts/Algerian.eot");
+  src: url("fonts/Algerian.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */ url("fonts/Algerian.otf") format("opentype"), /* Open Type Font */ url("fonts/Algerian.svg") format("svg"), /* Legacy iOS */ url("fonts/Algerian.ttf") format("truetype"), /* Safari, Android, iOS */ url("fonts/Algerian.woff") format("woff"), /* Modern Browsers */ url("fonts/Algerian.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  
+  /* IE9 Compat Modes */
+  /* Modern Browsers */
+}
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "Algerian";
+  src: url("fonts/Algerian.eot");
+  src: url("fonts/Algerian.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */ url("fonts/Algerian.otf") format("opentype"), /* Open Type Font */ url("fonts/Algerian.svg") format("svg"), /* Legacy iOS */ url("fonts/Algerian.ttf") format("truetype"), /* Safari, Android, iOS */ url("fonts/Algerian.woff") format("woff"), /* Modern Browsers */ url("fonts/Algerian.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  
+  /* IE9 Compat Modes */
+  /* Modern Browsers */
+}
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "aCooperBlack";
+  src: url("fonts/acooperblack.eot");
+  src: url("fonts/acooperblack.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */ url("fonts/acooperblack.otf") format("opentype"), /* Open Type Font */ url("fonts/acooperblack.svg") format("svg"), /* Legacy iOS */ url("fonts/acooperblack.ttf") format("truetype"), /* Safari, Android, iOS */ url("fonts/acooperblack.woff") format("woff"), /* Modern Browsers */ url("fonts/acooperblack.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  
+  /* IE9 Compat Modes */
+  /* Modern Browsers */
+}
+/*============    ШРИФТЫ  Назначение   ===========*/
+/*============    ШРИФТЫ  Назначение   ===========*/
+.time {
+  font-family: "TimesNewRomanPSMT";
+}
+.bt701 {
+  font-family: "News701BT-RomanA";
+}
+.head {
+  font-family: "Algerian";
+}
+.cooper {
+  font-family: "aCooperBlack";
+}
+/* ================================= Stars Section Main Basic Settings ===================================*/
+a:hover,
+a:focus,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+button:focus {
+  outline: none;
+}
+body {
+  background-color: rgba(30, 144, 255, 0.5);
+}
+.row {
+  padding-top: 10px;
+}
+p {
+  text-align: left;
+  padding: 10px;
+  font-size: 16px;
+  font-family: "TimesNewRomanPSMT";
+}
+.container {
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: #fffff0;
+}
+/* ================================= End Section Main Basic Settings ===================================*/
+/* ================================= Stars Section Header ===================================*/
+header h1 {
+  margin-top: 25px;
+  color: #556B2F;
+  font-family: "Algerian";
+  font-size: 60px;
+}
+header h2 {
+  margin: -10px;
+  color: #556B2F;
+  font-family: "aCooperBlack";
+}
+header img {
+  margin: 10px;
+  height: 150px;
+  width: 150px;
+}
+header a {
+  font-family: "News701BT-RomanA";
+  margin-left: 10px;
+  font-size: 25px;
+  color: #556B2F;
+}
+header .fa {
+  margin-right: 10px;
+  color: #1E90FF;
+}
+header h4 {
+  margin-right: 20px;
+  font-family: "News701BT-RomanA";
+  color: #556B2F;
+  text-transform: uppercase;
+}
+header p {
+  margin-top: -4%;
+  margin-left: 29%;
+  font-size: 23px;
+  color: #556B2F;
+}
+/* ================================= End Section Header ====================================*/
+/* ================================= Stars Section Menu ===================================*/
+section#menu .container {
+  width: 80%;
+  background: #37915b;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+section#menu .container .dws-menu * {
+  margin: 0;
+  padding: 0;
+}
+section#menu .container .dws-menu ul,
+section#menu .container .dws-menu ol {
+  list-style: none;
+}
+section#menu .container .dws-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+section#menu .container .dws-menu > ul li a {
+  display: block;
+  background: #37915b;
+  padding: 15px 30px 15px 40px;
+  text-transform: uppercase;
+  color: white;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+section#menu .container .dws-menu > ul li {
+  position: relative;
+  border-right: 1px solid darkgreen;
+}
+section#menu .container .dws-menu > ul li > a i.fa {
+  position: absolute;
+  top: 11px;
+  left: 12px;
+  font-size: 20px;
+}
+section#menu .container .dws-menu > ul li:first-child {
+  border-left: 1px solid darkgreen;
+}
+section#menu .container .dws-menu > ul li:last-child {
+  border-right: 1px solid darkgreen;
+}
+section#menu .container .dws-menu li a:hover {
+  background: green;
+  /*Цвает при наведении на кнопку */
+  color: Gray;
+  -webkit-box-shadow: 1px 5px 10px -5px #ffffff;
+          box-shadow: 1px 5px 10px -5px #ffffff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+section#menu .container .dws-menu li ul {
+  position: absolute;
+  min-width: 150px;
+  display: none;
+}
+section#menu .container .dws-menu li > ul li {
+  border: 1px solid darkgreen;
+}
+section#menu .container .dws-menu li > ul li a {
+  padding: 10px;
+  text-transform: none;
+  background: green;
+}
+section#menu .container .dws-menu li:hover > ul {
+  display: block;
+  z-index: 99999;
+}
+section#menu .container .fa {
+  padding: 3px 0px 5px 0px;
+  margin-left: -2px;
+}
+/* ================================= End Section Menu ===================================*/
+/* ================================= Stars Section Main ===================================*/
+section#main .card {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #1E90FF;
+  border-radius: 20px;
+  background-color: #fffff0;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+section#main .card:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+section#main h3 {
+  text-align: center;
+  font-family: "aCooperBlack";
+  color: #556B2F ;
+}
+section#main .img {
+  text-align: center;
+}
+section#main .main_buttons {
+  /*padding-left: 120px;*/
+  margin-bottom: 10px;
+}
+section#main .main_buttons button#get_info {
+  border: none;
+  background-color: #37915b;
+  padding: 10px 35px;
+  color: #FFFFF0;
+  font-size: 12px;
+  font-family: "News701BT-RomanA";
+  text-transform: uppercase;
+  border: 2px solid #37915b;
+}
+section#main .main_buttons button#get_info:hover {
+  background-color: #FFFFF0;
+  color: #37915b;
+  border: 2px solid #37915b;
+}
+section#main #calendar2 {
+  width: 80%;
+  margin-left: 10%;
+  line-height: 1.2em;
+  font-size: 15px;
+  text-align: center;
+}
+section#main #calendar2 thead tr:last-child {
+  font-size: small;
+  color: #555555;
+}
+section#main #calendar2 thead tr:nth-child(1) td:nth-child(2) {
+  color: #323232;
+}
+section#main #calendar2 thead tr:nth-child(1) td:nth-child(1):hover,
+section#main #calendar2 thead tr:nth-child(1) td:nth-child(3):hover {
+  cursor: pointer;
+}
+section#main #calendar2 tbody td {
+  color: #2c567a;
+}
+section#main #calendar2 tbody td:nth-child(n+6),
+section#main #calendar2 .holiday {
+  color: #e78c5c;
+}
+section#main #calendar2 tbody td.today {
+  background: #dc0000;
+  color: #fff;
+}
+section#main .date-news {
+  display: inline-block;
+  text-align: left;
+}
+/* ================================= End Section Main ===================================*/
+/* ================================= Stars Section Transfer ===================================*/
+section#transfers h2 {
+  text-align: center;
+  color: #556B2F ;
+  font-family: "News701BT-RomanA";
+  text-transform: uppercase;
+}
+section#transfers h4 {
+  font-family: "News701BT-RomanA";
+  text-transform: uppercase;
+}
+section#transfers .card {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 360px;
+  height: 100%;
+  border: 2px solid #1E90FF;
+  border-radius: 20px;
+  background-color: #fffff0;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+section#transfers .card:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+section#transfers .img {
+  text-align: center;
+}
+section#transfers .main_buttons {
+  text-align: center;
+  margin-bottom: 10px;
+}
+section#transfers .main_buttons button#get_info {
+  border: none;
+  background-color: #37915b;
+  padding: 10px 35px;
+  color: #FFFFF0;
+  font-size: 12px;
+  font-family: "News701BT-RomanA";
+  text-transform: uppercase;
+  border: 2px solid #37915b;
+}
+section#transfers .main_buttons button#get_info:hover {
+  background-color: #FFFFF0;
+  color: #37915b;
+  border: 2px solid #37915b;
+}
+/*================================= End Section Transfers ===================================*/
+/*================================= Start Section Tours =====================================*/
+section#tours_main h2 {
+  text-align: center;
+  color: #556B2F ;
+  font-family: "News701BT-RomanA";
+  text-transform: uppercase;
+}
+section#tours_main h4 {
+  font-family: "News701BT-RomanA";
+  text-transform: uppercase;
+}
+section#tours_main .card {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 60%;
+  width: 360px;
+  height: 100%;
+  border: 2px solid #1E90FF;
+  border-radius: 20px;
+  background-color: #fffff0;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+section#tours_main .card:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+section#tours_main .img {
+  text-align: center;
+}
+section#tours_main .main_buttons {
+  text-align: center;
+  margin-bottom: 10px;
+}
+section#tours_main .main_buttons button#get_info {
+  border: none;
+  background-color: #37915b;
+  padding: 10px 35px;
+  color: #FFFFF0;
+  font-size: 12px;
+  font-family: "News701BT-RomanA";
+  text-transform: uppercase;
+  border: 2px solid #37915b;
+}
+section#tours_main .main_buttons button#get_info:hover {
+  background-color: #FFFFF0;
+  color: #37915b;
+  border: 2px solid #37915b;
+}
+/*================================= End Section Tours ======================================*/
+/*================================= Start Section Transfers MCK ==============================*/
+section#transfers_msk h2 {
+  text-align: center;
+  color: #556B2F ;
+  font-family: "News701BT-RomanA";
+  text-transform: uppercase;
+}
+section#transfers_msk h4 {
+  font-family: "News701BT-RomanA";
+  color: #1E90FF;
+  text-transform: uppercase;
+}
+section#transfers_msk h2#price {
+  font-family: "News701BT-RomanA";
+  color: #1E90FF;
+  text-transform: uppercase;
+}
+section#transfers_msk .card {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 14%;
+  width: 360px;
+  height: 100%;
+  border: 2px solid #1E90FF;
+  border-radius: 20px;
+  background-color: #fffff0;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+section#transfers_msk .card:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+section#transfers_msk .card .fa-user {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+section#transfers_msk .card .fa-suitcase {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+section#transfers_msk .img {
+  text-align: center;
+}
+section#transfers_msk .main_buttons {
+  text-align: center;
+  margin-bottom: 10px;
+}
+section#transfers_msk .main_buttons_msk {
+  text-align: center;
+  margin-bottom: 10px;
+}
+section#transfers_msk button#get_infomsk {
+  border: none;
+  background-color: #37915b;
+  padding: 10px 23px;
+  margin-bottom: 10px;
+  color: #FFFFF0;
+  font-size: 12px;
+  font-family: "News701BT-RomanA";
+  text-transform: uppercase;
+  border: 2px solid #37915b;
+}
+section#transfers_msk button#get_infomsk:hover {
+  background-color: #FFFFF0;
+  color: #37915b;
+  border: 2px solid #37915b;
+}
+section#transfers_msk button#get_booking {
+  border: none;
+  background-color: #FFFFF0;
+  padding: 10px 35px;
+  color: #37915b;
+  font-size: 12px;
+  font-family: "News701BT-RomanA";
+  text-transform: uppercase;
+  border: 2px solid #37915b;
+}
+section#transfers_msk button#get_booking:hover {
+  background-color: #37915b;
+  color: #FFFFF0;
+  border: 2px solid #37915b;
+}
+/*================================= End Section Transfers MCK ================================*/
+/*================================= Start Section Transfers SPb ==============================*/
+section#transfers_spb h2 {
+  text-align: center;
+  color: #556B2F ;
+  font-family: "News701BT-RomanA";
+  text-transform: uppercase;
+}
+section#transfers_spb h4 {
+  font-family: "News701BT-RomanA";
+  color: #1E90FF;
+  text-transform: uppercase;
+}
+section#transfers_spb h2#price {
+  font-family: "News701BT-RomanA";
+  color: #1E90FF;
+  text-transform: uppercase;
+}
+section#transfers_spb .card {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 14%;
+  width: 360px;
+  height: 100%;
+  border: 2px solid #1E90FF;
+  border-radius: 20px;
+  background-color: #fffff0;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+section#transfers_spb .card:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+section#transfers_spb .card .fa-user {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+section#transfers_spb .card .fa-suitcase {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+section#transfers_spb .img {
+  text-align: center;
+}
+section#transfers_spb .main_buttons {
+  text-align: center;
+  margin-bottom: 10px;
+}
+section#transfers_spb .main_buttons_msk {
+  text-align: center;
+  margin-bottom: 10px;
+}
+section#transfers_spb button#get_info_spb {
+  border: none;
+  background-color: #37915b;
+  padding: 10px 23px;
+  margin-bottom: 10px;
+  color: #FFFFF0;
+  font-size: 12px;
+  font-family: "News701BT-RomanA";
+  text-transform: uppercase;
+  border: 2px solid #37915b;
+}
+section#transfers_spb button#get_info_spb:hover {
+  background-color: #FFFFF0;
+  color: #37915b;
+  border: 2px solid #37915b;
+}
+section#transfers_spb button#get_booking {
+  border: none;
+  background-color: #FFFFF0;
+  padding: 10px 35px;
+  color: #37915b;
+  font-size: 12px;
+  font-family: "News701BT-RomanA";
+  text-transform: uppercase;
+  border: 2px solid #37915b;
+}
+section#transfers_spb button#get_booking:hover {
+  background-color: #37915b;
+  color: #FFFFF0;
+  border: 2px solid #37915b;
+}
+/*================================= End Section Transfers SPb ================================*/
+/* ================================ Stars Free Time MSK ===================*/
+section#free_time_msk {
+  /*закрытие card*/
+}
+section#free_time_msk .card-main {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 3%;
+  width: 95%;
+  height: 100%;
+  border: 2px solid lightgrey;
+  border-radius: 20px;
+  background-color: #fffff0;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+section#free_time_msk .card-main:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+section#free_time_msk .card-interest {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 3%;
+  width: 95%;
+  height: 100%;
+  border: 2px solid lightgrey;
+  border-radius: 20px;
+  background-color: #fffff0;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+section#free_time_msk .card-interest:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+section#free_time_msk h2 {
+  text-transform: uppercase;
+  color: #556B2F;
+  font-family: "News701BT-RomanA";
+  font-weight: 600;
+}
+section#free_time_msk img {
+  width: 300px;
+  height: 210px;
+  margin: 3px;
+}
+section#free_time_msk img#sevensist,
+section#free_time_msk #vdnx {
+  width: 550px;
+  height: 210px;
+  margin: 3px;
+}
+section#free_time_msk p {
+  font-size: 15px;
+  font-family: "TimesNewRomanPSMT";
+}
+section#free_time_msk h4 {
+  font-family: "aCooperBlack";
+  text-align: center;
+  font-weight: 600;
+  color: #556B2F;
+  text-transform: uppercase;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+section#free_time_msk h5 {
+  font-family: "aCooperBlack";
+  font-weight: 600;
+  color: #556B2F;
+  text-transform: uppercase;
+}
+/*закрытие секции*/
+/* =========================== End Free Time MSK ========================*/
+/* ================================ Stars Free Time SPb ===================*/
+section#free_time_spb .card {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 3%;
+  width: 95%;
+  height: 100%;
+  border: 2px solid lightgrey;
+  border-radius: 20px;
+  background-color: #fffff0;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+section#free_time_spb .card:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+section#free_time_spb h2 {
+  text-transform: uppercase;
+  color: #556B2F;
+  font-family: "News701BT-RomanA";
+  font-weight: 600;
+}
+section#free_time_spb img {
+  width: 300px;
+  height: 210px;
+  margin: 3px;
+}
+section#free_time_spb img#sevensist,
+section#free_time_spb #vdnx {
+  width: 550px;
+  height: 210px;
+  margin: 3px;
+}
+section#free_time_spb p#plan {
+  text-align: right;
+  font-family: "TimesNewRomanPSMT";
+  margin-top: -10px;
+  margin-left: 9%;
+  width: 76%;
+  font-size: 100%;
+}
+section#free_time_spb h4 {
+  font-family: "aCooperBlack";
+  font-weight: 600;
+  color: #556B2F;
+  text-transform: uppercase;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+section#free_time_spb h5 {
+  font-family: "aCooperBlack";
+  font-weight: 600;
+  color: #556B2F;
+  text-transform: uppercase;
+}
+/* =========================== End Free Time SPb ========================*/
+/* =========================== Start Golden Ring ========================*/
+section#golden .card {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 3%;
+  width: 60%;
+  height: 100%;
+  border: 2px solid lightgrey;
+  border-radius: 20px;
+  background-color: #fffff0;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+section#golden .card:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+section#golden h2 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #556B2F;
+  font-family: "News701BT-RomanA";
+}
+section#golden img {
+  margin-top: 5px;
+  width: 50%;
+}
+section#golden img#sergiev {
+  margin-top: 5px;
+  width: 60%;
+}
+section#golden img#yaros {
+  margin-top: 5px;
+  width: 33%;
+}
+/* =========================== End Golden Ring ========================*/
+/*================================= Start Golden ring  Sergiev Posad ===============================*/
+section#sergiev .card {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 3%;
+  width: 90%;
+  height: 100%;
+  border: 2px solid lightgrey;
+  border-radius: 20px;
+  background-color: #fffff0;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+section#sergiev .card:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+section#sergiev img {
+  margin-top: 10px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+section#sergiev img#sergiev {
+  margin-top: 25px;
+  width: 65%;
+}
+section#sergiev button#get_booking {
+  margin-bottom: 10px;
+  border: none;
+  background-color: #FFFFF0;
+  padding: 10px 35px;
+  color: #37915b;
+  font-size: 12px;
+  font-family: "News701BT-RomanA";
+  text-transform: uppercase;
+  border: 2px solid #37915b;
+}
+section#sergiev button#get_booking:hover {
+  background-color: #37915b;
+  color: #FFFFF0;
+  border: 2px solid #37915b;
+}
+section#sergiev h2 {
+  text-transform: uppercase;
+  color: #556B2F;
+  font-weight: 100;
+  font-family: "aCooperBlack";
+}
+section#sergiev h4 {
+  text-transform: uppercase;
+  color: #556B2F;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: "aCooperBlack";
+}
+section#sergiev span {
+  font-weight: 600;
+  color: red;
+  text-decoration: underline;
+}
+/*================================= End Golden ring  Sergiev Posad ===============================*/
+/*================================= Start Golden ring  Pereslavl Zalessky ===============================*/
+section#pereslavl_zalessky .card {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 3%;
+  width: 90%;
+  height: 100%;
+  border: 2px solid lightgrey;
+  border-radius: 20px;
+  background-color: #fffff0;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+section#pereslavl_zalessky .card:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+section#pereslavl_zalessky img {
+  margin-top: 10px;
+  width: 42%;
+  margin-bottom: 10px;
+}
+section#pereslavl_zalessky img#sergiev {
+  margin-top: 25px;
+  width: 65%;
+}
+section#pereslavl_zalessky button#get_booking {
+  margin-bottom: 10px;
+  border: none;
+  background-color: #FFFFF0;
+  padding: 10px 35px;
+  color: #37915b;
+  font-size: 12px;
+  font-family: "News701BT-RomanA";
+  text-transform: uppercase;
+  border: 2px solid #37915b;
+}
+section#pereslavl_zalessky button#get_booking:hover {
+  background-color: #37915b;
+  color: #FFFFF0;
+  border: 2px solid #37915b;
+}
+section#pereslavl_zalessky h2 {
+  text-transform: uppercase;
+  color: #556B2F;
+  font-weight: 100;
+  font-family: "aCooperBlack";
+}
+section#pereslavl_zalessky h4 {
+  text-transform: uppercase;
+  color: #556B2F;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: "aCooperBlack";
+}
+section#pereslavl_zalessky span {
+  font-weight: 600;
+  color: red;
+  text-decoration: underline;
+}
+section#pereslavl_zalessky a {
+  color: #1E90FF;
+}
+section#pereslavl_zalessky a:hover {
+  color: #FFD700;
+}
+section#pereslavl_zalessky a:active {
+  color: #ADFF2F;
+}
+section#pereslavl_zalessky a:visited {
+  color: #CD853F;
+}
+/*================================= End Golden ring  Pereslavl Zalessky ===============================*/
+/*================================= Start Golden ring  Rostov-the-Great  ===============================*/
+section#rostov_great .card {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 3%;
+  width: 90%;
+  height: 100%;
+  border: 2px solid lightgrey;
+  border-radius: 20px;
+  background-color: #fffff0;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+section#rostov_great .card:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+section#rostov_great img {
+  margin-top: 10px;
+  width: 40%;
+  margin-bottom: 10px;
+}
+section#rostov_great img#sergiev {
+  margin-top: 25px;
+  width: 65%;
+}
+section#rostov_great button#get_booking {
+  margin-bottom: 10px;
+  border: none;
+  background-color: #FFFFF0;
+  padding: 10px 35px;
+  color: #37915b;
+  font-size: 12px;
+  font-family: "News701BT-RomanA";
+  text-transform: uppercase;
+  border: 2px solid #37915b;
+}
+section#rostov_great button#get_booking:hover {
+  background-color: #37915b;
+  color: #FFFFF0;
+  border: 2px solid #37915b;
+}
+section#rostov_great h2 {
+  text-transform: uppercase;
+  color: #556B2F;
+  font-weight: 100;
+  font-family: "aCooperBlack";
+}
+section#rostov_great h4 {
+  text-transform: uppercase;
+  color: #556B2F;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: "aCooperBlack";
+}
+section#rostov_great span {
+  font-weight: 600;
+  color: red;
+  text-decoration: underline;
+}
+section#rostov_great a {
+  color: #1E90FF;
+}
+section#rostov_great a:hover {
+  color: #FFD700;
+}
+section#rostov_great a:active {
+  color: #ADFF2F;
+}
+section#rostov_great a:visited {
+  color: #CD853F;
+}
+/*================================= End Golden ring  Rostov-the-Great  ===============================*/
+/*================================= Start Golden ring  Yaroslavl  ===============================*/
+section#yaroslavl .card {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 3%;
+  width: 90%;
+  height: 100%;
+  border: 2px solid lightgrey;
+  border-radius: 20px;
+  background-color: #fffff0;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+section#yaroslavl .card:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+section#yaroslavl img {
+  margin-top: 10px;
+  width: 90%;
+  margin-bottom: 10px;
+}
+section#yaroslavl img#yaroslavl {
+  margin-top: 25px;
+  width: 30%;
+}
+section#yaroslavl button#get_booking {
+  margin-bottom: 10px;
+  border: none;
+  background-color: #FFFFF0;
+  padding: 10px 35px;
+  color: #37915b;
+  font-size: 12px;
+  font-family: "News701BT-RomanA";
+  text-transform: uppercase;
+  border: 2px solid #37915b;
+}
+section#yaroslavl button#get_booking:hover {
+  background-color: #37915b;
+  color: #FFFFF0;
+  border: 2px solid #37915b;
+}
+section#yaroslavl h2 {
+  text-transform: uppercase;
+  color: #556B2F;
+  font-weight: 100;
+  font-family: "aCooperBlack";
+}
+section#yaroslavl h4 {
+  text-transform: uppercase;
+  color: #556B2F;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: "aCooperBlack";
+}
+section#yaroslavl span {
+  font-weight: 600;
+  color: red;
+  text-decoration: underline;
+}
+section#yaroslavl a {
+  color: #1E90FF;
+}
+section#yaroslavl a:hover {
+  color: #FFD700;
+}
+section#yaroslavl a:active {
+  color: #ADFF2F;
+}
+section#yaroslavl a:visited {
+  color: #CD853F;
+}
+/*================================= End Golden ring  Yaroslavl  ===============================*/
+/*================================= Start Golden ring  Kostroma  ===============================*/
+section#kostroma .card {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 3%;
+  width: 90%;
+  height: 100%;
+  border: 2px solid lightgrey;
+  border-radius: 20px;
+  background-color: #fffff0;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+section#kostroma .card:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+section#kostroma img {
+  margin-top: 10px;
+  width: 90%;
+  margin-bottom: 10px;
+}
+section#kostroma img#kostroma {
+  margin-top: 25px;
+  width: 35%;
+}
+section#kostroma button#get_booking {
+  margin-bottom: 10px;
+  border: none;
+  background-color: #FFFFF0;
+  padding: 10px 35px;
+  color: #37915b;
+  font-size: 12px;
+  font-family: "News701BT-RomanA";
+  text-transform: uppercase;
+  border: 2px solid #37915b;
+}
+section#kostroma button#get_booking:hover {
+  background-color: #37915b;
+  color: #FFFFF0;
+  border: 2px solid #37915b;
+}
+section#kostroma h2 {
+  text-transform: uppercase;
+  color: #556B2F;
+  font-weight: 100;
+  font-family: "aCooperBlack";
+}
+section#kostroma h4 {
+  text-transform: uppercase;
+  color: #556B2F;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: "aCooperBlack";
+}
+section#kostroma span {
+  font-weight: 600;
+  color: red;
+  text-decoration: underline;
+}
+section#kostroma a {
+  color: #1E90FF;
+}
+section#kostroma a:hover {
+  color: #FFD700;
+}
+section#kostroma a:active {
+  color: #ADFF2F;
+}
+section#kostroma a:visited {
+  color: #CD853F;
+}
+/*================================= End Golden ring  Kostroma  ===============================*/
+/*================================= Start Golden ring Ivanovo  ===============================*/
+section#ivanovo .card {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 3%;
+  width: 90%;
+  height: 100%;
+  border: 2px solid lightgrey;
+  border-radius: 20px;
+  background-color: #fffff0;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+section#ivanovo .card:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+section#ivanovo img {
+  margin-top: 10px;
+  width: 90%;
+  margin-bottom: 10px;
+}
+section#ivanovo img#ivanovo {
+  margin-top: 25px;
+  width: 35%;
+}
+section#ivanovo button#get_booking {
+  margin-bottom: 10px;
+  border: none;
+  background-color: #FFFFF0;
+  padding: 10px 35px;
+  color: #37915b;
+  font-size: 12px;
+  font-family: "News701BT-RomanA";
+  text-transform: uppercase;
+  border: 2px solid #37915b;
+}
+section#ivanovo button#get_booking:hover {
+  background-color: #37915b;
+  color: #FFFFF0;
+  border: 2px solid #37915b;
+}
+section#ivanovo h2 {
+  text-transform: uppercase;
+  color: #556B2F;
+  font-weight: 100;
+  font-family: "aCooperBlack";
+}
+section#ivanovo h4 {
+  text-transform: uppercase;
+  color: #556B2F;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: "aCooperBlack";
+}
+section#ivanovo span {
+  font-weight: 600;
+  color: red;
+  text-decoration: underline;
+}
+section#ivanovo a {
+  color: #1E90FF;
+}
+section#ivanovo a:hover {
+  color: #FFD700;
+}
+section#ivanovo a:active {
+  color: #ADFF2F;
+}
+section#ivanovo a:visited {
+  color: #CD853F;
+}
+/*================================= End Golden ring Ivanovo  ===============================*/
+/*================================= Start Golden ring Suzdal  ===============================*/
+section#suzdal .card {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 3%;
+  width: 90%;
+  height: 100%;
+  border: 2px solid lightgrey;
+  border-radius: 20px;
+  background-color: #fffff0;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+section#suzdal .card:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+section#suzdal img {
+  margin-top: 10px;
+  width: 90%;
+  margin-bottom: 10px;
+}
+section#suzdal img#suzdal {
+  margin-top: 25px;
+  width: 35%;
+}
+section#suzdal button#get_booking {
+  margin-bottom: 10px;
+  border: none;
+  background-color: #FFFFF0;
+  padding: 10px 35px;
+  color: #37915b;
+  font-size: 12px;
+  font-family: "News701BT-RomanA";
+  text-transform: uppercase;
+  border: 2px solid #37915b;
+}
+section#suzdal button#get_booking:hover {
+  background-color: #37915b;
+  color: #FFFFF0;
+  border: 2px solid #37915b;
+}
+section#suzdal h2 {
+  text-transform: uppercase;
+  color: #556B2F;
+  font-weight: 100;
+  font-family: "aCooperBlack";
+}
+section#suzdal h4 {
+  text-transform: uppercase;
+  color: #556B2F;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: "aCooperBlack";
+}
+section#suzdal span {
+  font-weight: 600;
+  color: red;
+  text-decoration: underline;
+}
+section#suzdal a {
+  color: #1E90FF;
+}
+section#suzdal a:hover {
+  color: #FFD700;
+}
+section#suzdal a:active {
+  color: #ADFF2F;
+}
+section#suzdal a:visited {
+  color: #CD853F;
+}
+/*================================= End Golden ring Suzdal  ===============================*/
+/*================================= Start Golden ring Vladimir  ===============================*/
+section#vladimir .card {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 3%;
+  width: 90%;
+  height: 100%;
+  border: 2px solid lightgrey;
+  border-radius: 20px;
+  background-color: #fffff0;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+section#vladimir .card:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+section#vladimir img {
+  margin-top: 10px;
+  width: 65%;
+  margin-bottom: 10px;
+}
+section#vladimir img#vladimir {
+  margin-top: 25px;
+  width: 35%;
+}
+section#vladimir button#get_booking {
+  margin-bottom: 10px;
+  border: none;
+  background-color: #FFFFF0;
+  padding: 10px 35px;
+  color: #37915b;
+  font-size: 12px;
+  font-family: "News701BT-RomanA";
+  text-transform: uppercase;
+  border: 2px solid #37915b;
+}
+section#vladimir button#get_booking:hover {
+  background-color: #37915b;
+  color: #FFFFF0;
+  border: 2px solid #37915b;
+}
+section#vladimir h2 {
+  text-transform: uppercase;
+  color: #556B2F;
+  font-weight: 100;
+  font-family: "aCooperBlack";
+}
+section#vladimir h4 {
+  text-transform: uppercase;
+  color: #556B2F;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: "aCooperBlack";
+}
+section#vladimir span {
+  font-weight: 600;
+  color: red;
+  text-decoration: underline;
+}
+section#vladimir a {
+  color: #1E90FF;
+}
+section#vladimir a:hover {
+  color: #FFD700;
+}
+section#vladimir a:active {
+  color: #ADFF2F;
+}
+section#vladimir a:visited {
+  color: #CD853F;
+}
+/*================================= End Golden ring Vladimir  ===============================*/
+/*================================= Start Section Footer ==============================*/
+section#footer .container {
+  background-color: #808080;
+}
+section#footer p {
+  text-align: center;
+  color: white;
+}
+section#footer p.phone-phone {
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+section#footer p.email {
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+section#footer strong {
+  font-size: 20px;
+  font-weight: 700;
+}
+section#footer h2 {
+  font-family: "News701BT-RomanA";
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px;
+}
+section#footer h5 {
+  font-family: "News701BT-RomanA";
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+section#footer a {
+  color: white;
+}
+section#footer i.fa-facebook-square {
+  position: absolute;
+  top: 32px;
+  left: 95px;
+  font-size: 28px;
+  color: white;
+}
+section#footer i.fa-facebook-square:hover {
+  color: lightgrey;
+}
+section#footer i.fa-tripadvisor {
+  position: absolute;
+  margin-top: -25px;
+  left: 130px;
+  font-size: 27px;
+  color: white;
+}
+section#footer i.fa-tripadvisor:hover {
+  color: lightgrey;
+}
+section#footer i.fa-volume-control-phone {
+  margin-right: 10px;
+}
+section#footer .phone-phone {
+  text-align: left;
+  margin-bottom: -10px;
+}
+section#footer .phone-number {
+  text-align: left;
+}
+section#footer .email {
+  text-align: left;
+  margin-bottom: -15px;
+}
+section#footer .mail {
+  text-align: left;
+}
+section#footer .skype {
+  text-align: left;
+  margin-bottom: 15px;
+}
+section#footer button#get_answer {
+  margin-left: 0px;
+  text-transform: uppercase;
+  background-color: transparent;
+  padding: 3px 20px;
+  color: white;
+  border: 2px solid white;
+  font-family: "aCooperBlack";
+}
+section#footer button#get_answer:hover {
+  background-color: white;
+  color: black;
+}
+section#footer a#policy {
+  color: white;
+  border-bottom: 2px dashed white;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+/*================================= End Section Footer ==============================*/
+/*=================================== Модальное Окно Booking Stsrt =========================================*/
+.modal {
+  position: fixed;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.modal-title {
+  text-align: center;
+  color: #1E90FF;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: "News701BT-RomanA";
+}
+.modal-close {
+  position: absolute;
+  top: -28px;
+  right: -1.5rem;
+  width: 2rem;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  font-size: 3rem;
+  color: white;
+}
+.modal-content {
+  background-color: #fffff0;
+  text-align: center;
+  width: 108%;
+}
+.modal-title {
+  font-weight: 999;
+}
+.modal-col-xs-12 {
+  margin-top: -25px;
+}
+.modal-btn button {
+  margin-bottom: 10px;
+  border: none;
+  background-color: #FFFFF0;
+  padding: 2% 25%;
+  color: #37915b;
+  font-size: 12px;
+  font-family: "News701BT-RomanA";
+  text-transform: uppercase;
+  border: 2px solid #37915b;
+  border-radius: 5px;
+}
+.modal-btn button:hover {
+  background-color: #37915b;
+  color: #FFFFF0;
+  border: 2px solid #37915b;
+}
+.modal-footer {
+  padding: 15px;
+  text-align: center;
+  border-top: 1px solid #e5e5e5;
+}
+.modal-input {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #1E90FF ;
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px;
+  margin: 1.5rem 0 ;
+}
+.modal label {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-20%);
+          transform: translateX(-50%) translateY(-20%);
+  background-color: transparent;
+  color: #1E90FF ;
+  font-family: "aCooperBlack";
+  padding: 0.5rem;
+}
+button.closes {
+  border: none;
+  color: #37915b;
+  font-size: 12px;
+  font-family: "News701BT-RomanA";
+  text-transform: uppercase;
+  border: 2px solid #37915b;
+  background-color: #FFFFF0;
+  border-radius: 5px;
+}
+button.closes:hover {
+  background-color: #37915b;
+  color: #FFFFF0;
+  border: 2px solid #37915b;
+}
+/*=================================== Модальное Окно Booking End =========================================*/
+/*=================================== Модальное Окно Info Stsrt =========================================*/
+.modal-body .fa {
+  margin-left: 2px;
+  margin-right: 2px;
+  font-size: 15px;
+}
+.modal-body h6#maxpax {
+  color: #1E90FF;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-top: -5px;
+}
+.modal-body p.info {
+  font-size: 15px;
+  font-weight: 600;
+}
+/*=================================== Модальное Окно Info End =========================================*/
+/*=================================	АДАПТИВ  =============================================*/
+@media (min-width: 0px) and (max-width: 480px) {
+  /*=================================	Start секция Header АДАПТИВ =============================================*/
+  header .container {
+    width: 80%;
+    background-color: #fffff0;
+    margin-bottom: 10px;
+  }
+  header h1 {
+    text-align: center;
+    margin-top: 5px;
+    color: #556B2F;
+    font-family: "Algerian";
+    font-size: 230%;
+  }
+  header h4 {
+    margin-right: auto;
+    margin-top: -5px;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: "News701BT-RomanA";
+    color: #556B2F;
+    text-transform: uppercase;
+    font-size: 85%;
+  }
+  header p {
+    margin-left: 36%;
+    font-size: 100%;
+  }
+  header img {
+    margin: auto;
+    height: 100px;
+    width: 100px;
+  }
+  header a {
+    font-family: "TimesNewRomanPSMT";
+    color: #556B2F;
+    font-size: 150%;
+    margin-left: 21%;
+  }
+  header .fa {
+    margin-right: 10px;
+    color: #1E90FF;
+  }
+  /*=================================	End секция Header АДАПТИВ =============================================*/
+  /*=================================	Start секция Menu АДАПТИВ =============================================*/
+  section#menu .visible-xs {
+    margin-left: 30%;
+  }
+  section#menu .fa-home {
+    color: #87CEFA;
+    margin-right: 10px;
+    font-size: 19px;
+  }
+  section#menu .fa-car {
+    color: #87CEFA;
+    margin-right: 10px;
+  }
+  section#menu .fa-globe {
+    color: #87CEFA;
+    margin-right: 10px;
+    font-size: 19px;
+  }
+  section#menu .fa-camera-retro {
+    color: #87CEFA;
+    margin-right: 10px;
+    font-size: 19px;
+  }
+  section#menu .fa-id-card-o {
+    color: #87CEFA;
+    margin-right: 10px;
+    font-size: 19px;
+  }
+  section#menu .fa-bars {
+    color: white;
+  }
+  section#menu .container {
+    background: #37915b;
+    width: 80%;
+    height: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  section#menu .dropdown-menu {
+    background: #3CB371;
+  }
+  section#menu .dropdown-menu a {
+    color: white;
+  }
+  section#menu .dropdown-menu a:hover {
+    color: black;
+  }
+  /*=================================	End секция Menu АДАПТИВ =============================================*/
+  /*=================================	Start секция Main АДАПТИВ =============================================*/
+  section#main .container {
+    width: 80%;
+    background-color: #fffff0;
+    margin-bottom: 10px;
+  }
+  section#main .fa-home {
+    position: absolute;
+    padding-left: 10px;
+  }
+  section#main .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    width: 99%;
+    height: 100%;
+    border: 2px solid #1E90FF;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#main .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#main .form-input {
+    width: 80%;
+  }
+  /*=================================	End секция Main АДАПТИВ =============================================*/
+  /* ======================= Start секция Tours Main АДАПТИВ ====================================================*/
+  section#tours_main .container {
+    width: 80%;
+    background-color: #fffff0;
+    margin-bottom: 10px;
+  }
+  section#tours_main .card {
+    text-align: center;
+    margin-left: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 98%;
+    height: 100%;
+    border: 2px solid #1E90FF;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#tours_main .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  /* ======================= End секция Tours Main АДАПТИВ ====================================================*/
+  /*=================================	Start секция Transfers АДАПТИВ =============================================*/
+  section#transfers .container {
+    width: 80%;
+    background-color: #fffff0;
+    margin-bottom: 10px;
+  }
+  section#transfers .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-left: -13px;
+    margin-bottom: 5px;
+    width: 113%;
+    height: 100%;
+    border: 2px solid #1E90FF;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#transfers .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  /* секция Transfers*/
+  /* ================================ End секция Transfers АДАПТИВ ===================*/
+  /* ================================ Старт секция Transfers MSC АДАПТИВ ===================*/
+  section#transfers_msk .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#transfers_msk h2 {
+    text-align: center;
+    color: #556B2F ;
+    font-family: "News701BT-RomanA";
+    text-transform: uppercase;
+    font-size: 21px;
+  }
+  section#transfers_msk h4 {
+    font-family: "News701BT-RomanA";
+    color: #1E90FF;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  section#transfers_msk p {
+    text-align: left;
+    padding-left: 15px;
+    font-size: 13px;
+  }
+  section#transfers_msk h2#price {
+    font-family: "News701BT-RomanA";
+    color: #1E90FF;
+    text-transform: uppercase;
+  }
+  section#transfers_msk .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 6%;
+    width: 87%;
+    height: 100%;
+    border: 2px solid #1E90FF;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#transfers_msk .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#transfers_msk .img {
+    text-align: center;
+  }
+  section#transfers_msk .main_buttons {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  section#transfers_msk .main_buttons_msk {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  section#transfers_msk button#get_infomsk {
+    border: none;
+    background-color: #37915b;
+    padding: 10px 23px;
+    margin-bottom: 10px;
+    color: #FFFFF0;
+    font-size: 12px;
+    font-family: "News701BT-RomanA";
+    text-transform: uppercase;
+    border: 2px solid #37915b;
+  }
+  section#transfers_msk button#get_infomsk:hover {
+    background-color: #FFFFF0;
+    color: #37915b;
+    border: 2px solid #37915b;
+  }
+  section#transfers_msk .fa-user {
+    margin-left: 6px;
+  }
+  section#transfers_msk .fa-suitcase {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  section#transfers_msk button#get_booking {
+    border: none;
+    background-color: #FFFFF0;
+    padding: 10px 35px;
+    color: #37915b;
+    font-size: 12px;
+    font-family: "News701BT-RomanA";
+    text-transform: uppercase;
+    border: 2px solid #37915b;
+    margin-bottom: 10px;
+  }
+  section#transfers_msk button#get_booking:hover {
+    background-color: #37915b;
+    color: #FFFFF0;
+    border: 2px solid #37915b;
+  }
+  /* =========================== End секция Transfers MSC АДАПТИВ ========================*/
+  /* ================================ Старт секция Transfers MSC АДАПТИВ ===================*/
+  section#transfers_spb .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#transfers_spb h2 {
+    text-align: center;
+    color: #556B2F ;
+    font-family: "News701BT-RomanA";
+    text-transform: uppercase;
+    font-size: 21px;
+  }
+  section#transfers_spb h4 {
+    font-family: "News701BT-RomanA";
+    color: #1E90FF;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  section#transfers_spb p {
+    text-align: left;
+    padding-left: 15px;
+    font-size: 13px;
+  }
+  section#transfers_spb h2#price {
+    font-family: "News701BT-RomanA";
+    color: #1E90FF;
+    text-transform: uppercase;
+  }
+  section#transfers_spb .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 6%;
+    width: 87%;
+    height: 100%;
+    border: 2px solid #1E90FF;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#transfers_spb .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#transfers_spb .img {
+    text-align: center;
+  }
+  section#transfers_spb .main_buttons {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  section#transfers_spb .main_buttons_msk {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  section#transfers_spb button#get_infomsk {
+    border: none;
+    background-color: #37915b;
+    padding: 10px 23px;
+    margin-bottom: 10px;
+    color: #FFFFF0;
+    font-size: 12px;
+    font-family: "News701BT-RomanA";
+    text-transform: uppercase;
+    border: 2px solid #37915b;
+  }
+  section#transfers_spb button#get_infomsk:hover {
+    background-color: #FFFFF0;
+    color: #37915b;
+    border: 2px solid #37915b;
+  }
+  section#transfers_spb .fa-user {
+    margin-left: 6px;
+  }
+  section#transfers_spb .fa-suitcase {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  section#transfers_spb button#get_booking {
+    border: none;
+    background-color: #FFFFF0;
+    padding: 10px 35px;
+    color: #37915b;
+    font-size: 12px;
+    font-family: "News701BT-RomanA";
+    text-transform: uppercase;
+    border: 2px solid #37915b;
+    margin-bottom: 10px;
+  }
+  section#transfers_spb button#get_booking:hover {
+    background-color: #37915b;
+    color: #FFFFF0;
+    border: 2px solid #37915b;
+  }
+  /* =========================== End секция Transfers MSC АДАПТИВ ========================*/
+  /* ================================ Stars Free Time MSK АДАПТИВ ===================*/
+  section#free_time_msk .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#free_time_msk h2 {
+    color: #556B2F;
+    font-family: "News701BT-RomanA";
+    font-size: 22px;
+  }
+  section#free_time_msk img {
+    width: 85%;
+    height: 100%;
+    margin: 3px;
+  }
+  section#free_time_msk img#sevensist {
+    width: 92%;
+    height: 100%;
+    margin: 3px;
+  }
+  section#free_time_msk img#vdnx {
+    width: 92%;
+    height: 100%;
+    margin: 3px;
+  }
+  section#free_time_msk p {
+    text-align: left;
+    padding-right: 25%;
+    font-size: 14px;
+    font-family: "TimesNewRomanPSMT";
+  }
+  section#free_time_msk p#author {
+    text-align: right;
+    font-family: "TimesNewRomanPSMT";
+    font-size: 100%;
+  }
+  section#free_time_msk h4 {
+    font-family: "aCooperBlack";
+    color: #556B2F;
+    text-transform: uppercase;
+  }
+  section#free_time_msk h5 {
+    font-family: "aCooperBlack";
+    color: #556B2F;
+    text-transform: uppercase;
+  }
+  section#free_time_msk .card-main {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 3%;
+    width: 95%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#free_time_msk .card-main:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#free_time_msk .card-interest {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 3%;
+    width: 95%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#free_time_msk .card-interest:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#free_time_msk .card-sm {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 8%;
+    width: 84%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#free_time_msk .card-sm:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  /* =========================== End Free Time MSK АДАПТИВ ========================*/
+  /* ================================ Stars Free Time SPb АДАПТИВ ===================*/
+  section#free_time_spb .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#free_time_spb h2 {
+    color: #556B2F;
+    font-family: "News701BT-RomanA";
+    font-size: 20px;
+  }
+  section#free_time_spb img {
+    width: 85%;
+    height: 100%;
+    margin: 3px;
+  }
+  section#free_time_spb img#sevensist {
+    width: 92%;
+    height: 100%;
+    margin: 3px;
+  }
+  section#free_time_spb img#vdnx {
+    width: 92%;
+    height: 100%;
+    margin: 3px;
+  }
+  section#free_time_spb p {
+    text-align: left;
+    font-size: 14px;
+    font-family: "TimesNewRomanPSMT";
+  }
+  section#free_time_spb p#author {
+    text-align: right;
+    font-family: "TimesNewRomanPSMT";
+    font-size: 100%;
+  }
+  section#free_time_spb h4 {
+    font-family: "aCooperBlack";
+    color: #556B2F;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  section#free_time_spb h5 {
+    font-family: "aCooperBlack";
+    color: #556B2F;
+    text-transform: uppercase;
+  }
+  section#free_time_spb .card-main {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 3%;
+    width: 95%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#free_time_spb .card-main:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#free_time_spb .card-interest {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 3%;
+    width: 95%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#free_time_spb .card-interest:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#free_time_spb .card-sm {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 8%;
+    width: 84%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#free_time_spb .card-sm:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  /* =========================== End Free Time SPb АДАПТИВ ========================*/
+  /* ================================ Stars Golden АДАПТИВ ===================*/
+  section#golden .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#golden .card-gold {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 0%;
+    width: 100%;
+    height: 90%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#golden .card-gold:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#golden h2 {
+    text-align: center;
+    font-size: 23px;
+  }
+  section#golden h3 {
+    font-size: 15px;
+  }
+  section#golden img {
+    margin-bottom: -14px;
+  }
+  /* =========================== End Golden АДАПТИВ ========================*/
+  /* ================================ Stars Sergiev АДАПТИВ ===================*/
+  section#sergiev .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#sergiev .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -1%;
+    width: 100%;
+    height: 90%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#sergiev .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#sergiev h2 {
+    text-transform: uppercase;
+    color: #556B2F;
+    font-weight: 100;
+    font-family: "aCooperBlack";
+    text-align: center;
+    font-size: 23px;
+  }
+  section#sergiev h3 {
+    font-size: 15px;
+  }
+  section#sergiev img {
+    margin-bottom: 10px;
+    width: 70%;
+  }
+  /* =========================== End Sergiev АДАПТИВ ========================*/
+  /* ================================ Stars Pereslavl_Zalessky АДАПТИВ ===================*/
+  section#pereslavl_zalessky .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#pereslavl_zalessky .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -1%;
+    width: 100%;
+    height: 90%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#pereslavl_zalessky .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#pereslavl_zalessky h2 {
+    text-transform: uppercase;
+    color: #556B2F;
+    font-weight: 100;
+    font-family: "aCooperBlack";
+    text-align: center;
+    font-size: 23px;
+  }
+  section#pereslavl_zalessky h3 {
+    font-size: 15px;
+  }
+  section#pereslavl_zalessky img {
+    margin-bottom: 10px;
+    width: 60%;
+  }
+  /* =========================== End Pereslavl_Zalessky АДАПТИВ ========================*/
+  /* ================================ Stars Rostov the great АДАПТИВ ===================*/
+  section#rostov_great .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#rostov_great .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -1%;
+    width: 100%;
+    height: 90%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#rostov_great .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#rostov_great h2 {
+    text-transform: uppercase;
+    color: #556B2F;
+    font-weight: 100;
+    font-family: "aCooperBlack";
+    text-align: center;
+    font-size: 21px;
+  }
+  section#rostov_great h3 {
+    font-size: 15px;
+  }
+  section#rostov_great img {
+    margin-bottom: 10px;
+    width: 60%;
+  }
+  /* =========================== End Rostov the great АДАПТИВ ========================*/
+  /* ================================ Stars Yaroslavl АДАПТИВ ===================*/
+  section#yaroslavl .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#yaroslavl .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -1%;
+    width: 100%;
+    height: 90%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#yaroslavl .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#yaroslavl h2 {
+    text-transform: uppercase;
+    color: #556B2F;
+    font-weight: 100;
+    font-family: "aCooperBlack";
+    text-align: center;
+    font-size: 23px;
+  }
+  section#yaroslavl h3 {
+    font-size: 15px;
+  }
+  section#yaroslavl img {
+    margin-bottom: 10px;
+    width: 50%;
+  }
+  /* =========================== End Yaroslavl АДАПТИВ ========================*/
+  /* ================================ Stars Kostroma АДАПТИВ ===================*/
+  section#kostroma .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#kostroma .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -1%;
+    width: 100%;
+    height: 90%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#kostroma .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#kostroma h2 {
+    text-transform: uppercase;
+    color: #556B2F;
+    font-weight: 100;
+    font-family: "aCooperBlack";
+    text-align: center;
+    font-size: 23px;
+  }
+  section#kostroma h3 {
+    font-size: 15px;
+  }
+  section#kostroma img {
+    margin-bottom: 10px;
+    width: 50%;
+  }
+  /* =========================== End Kostroma АДАПТИВ ========================*/
+  /* ================================ Stars Ivanovo АДАПТИВ ===================*/
+  section#ivanovo .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#ivanovo .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -1%;
+    width: 100%;
+    height: 90%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#ivanovo .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#ivanovo h2 {
+    text-transform: uppercase;
+    color: #556B2F;
+    font-weight: 100;
+    font-family: "aCooperBlack";
+    text-align: center;
+    font-size: 23px;
+  }
+  section#ivanovo h3 {
+    font-size: 15px;
+  }
+  section#ivanovo img {
+    margin-bottom: 10px;
+    width: 50%;
+  }
+  /* =========================== End Ivanovo АДАПТИВ ========================*/
+  /* ================================ Stars Suzdal АДАПТИВ ===================*/
+  section#suzdal .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#suzdal .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -1%;
+    width: 100%;
+    height: 90%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#suzdal .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#suzdal h2 {
+    text-transform: uppercase;
+    color: #556B2F;
+    font-weight: 100;
+    font-family: "aCooperBlack";
+    text-align: center;
+    font-size: 23px;
+  }
+  section#suzdal h3 {
+    font-size: 15px;
+  }
+  section#suzdal img {
+    margin-bottom: 10px;
+    width: 50%;
+  }
+  /* =========================== End Suzdal АДАПТИВ ========================*/
+  /* ================================ Stars Vladimir АДАПТИВ ===================*/
+  section#vladimir .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#vladimir .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -1%;
+    width: 100%;
+    height: 90%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#vladimir .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#vladimir h2 {
+    text-transform: uppercase;
+    color: #556B2F;
+    font-weight: 100;
+    font-family: "aCooperBlack";
+    text-align: center;
+    font-size: 23px;
+  }
+  section#vladimir h3 {
+    font-size: 15px;
+  }
+  section#vladimir img {
+    margin-bottom: 10px;
+    width: 50%;
+  }
+  /* =========================== End Vladimir АДАПТИВ ========================*/
+  /*=================================	Stars секция  Footer АДАПТИВ =============================================*/
+  section#footer i.fa-facebook-square {
+    position: absolute;
+    top: 34px;
+    left: 50%;
+    font-size: 25px;
+    color: white;
+  }
+  section#footer i.fa-facebook-square:hover {
+    color: lightgrey;
+  }
+  section#footer i.fa-tripadvisor {
+    position: absolute;
+    margin-top: -24px;
+    left: 60%;
+    font-size: 22px;
+    color: white;
+  }
+  section#footer i.fa-tripadvisor:hover {
+    color: lightgrey;
+  }
+  section#footer p {
+    text-align: center;
+  }
+  section#footer p.phone-phone {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  section#footer p.phone-number {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+  }
+  section#footer p.email {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  section#footer p.mail {
+    text-align: center;
+    color: white;
+  }
+  section#footer p.skype {
+    text-align: center;
+    color: white;
+  }
+  section#footer button#get_answer {
+    margin-left: 21%;
+    text-transform: uppercase;
+    background-color: transparent;
+    padding: 3px 20px;
+    color: white;
+    border: 2px solid white;
+    font-family: "aCooperBlack";
+  }
+  section#footer a#policy {
+    color: white;
+    border-bottom: 2px dashed white;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 21%;
+  }
+  /*=================================	Stars секция  Footer АДАПТИВ =============================================*/
+}
+/*конец 1го медиа*/
+@media (min-width: 481px) and (max-width: 767px) {
+  /*=================================	Start секция Header АДАПТИВ =============================================*/
+  header .container {
+    width: 80%;
+    background-color: #fffff0;
+    margin-bottom: 10px;
+  }
+  header h1 {
+    text-align: center;
+    margin-top: 5px;
+    color: #556B2F;
+    font-family: "Algerian";
+    font-size: 230%;
+  }
+  header h4 {
+    margin-right: auto;
+    margin-top: -5px;
+    margin-bottom: 0%;
+    text-align: center;
+    font-family: "News701BT-RomanA";
+    color: #556B2F;
+    text-transform: uppercase;
+    font-size: 85%;
+  }
+  header p {
+    text-align: center;
+    margin-left: 0%;
+    font-size: 98%;
+    margin-top: -10px;
+  }
+  header img {
+    margin: auto;
+    height: 100px;
+    width: 100px;
+  }
+  header a {
+    font-family: "News701BT-RomanA";
+    text-align: center;
+    color: #556B2F;
+    font-size: 120%;
+    margin-left: 31%;
+  }
+  header .fa {
+    margin-right: 10px;
+    color: #1E90FF;
+  }
+  /*=================================	End секция Header АДАПТИВ =============================================*/
+  /*=================================	Start секция Menu АДАПТИВ =============================================*/
+  section#menu .visible-xs {
+    margin-left: 35%;
+  }
+  section#menu .fa-home {
+    color: #87CEFA;
+    margin-right: 10px;
+    font-size: 19px;
+  }
+  section#menu .fa-car {
+    color: #87CEFA;
+    margin-right: 10px;
+  }
+  section#menu .fa-globe {
+    color: #87CEFA;
+    margin-right: 10px;
+    font-size: 19px;
+  }
+  section#menu .fa-camera-retro {
+    color: #87CEFA;
+    margin-right: 10px;
+    font-size: 19px;
+  }
+  section#menu .fa-id-card-o {
+    color: #87CEFA;
+    margin-right: 10px;
+    font-size: 19px;
+  }
+  section#menu .fa-bars {
+    color: white;
+  }
+  section#menu .container {
+    background: #37915b;
+    width: 80%;
+    height: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  section#menu .dropdown-menu {
+    background: #3CB371;
+  }
+  section#menu .dropdown-menu a {
+    color: white;
+  }
+  section#menu .dropdown-menu a:hover {
+    color: black;
+  }
+  /*=================================	End секция Menu АДАПТИВ =============================================*/
+  /*=================================	Start секция Main АДАПТИВ =============================================*/
+  section#main .container {
+    width: 80%;
+    background-color: #fffff0;
+    margin-bottom: 10px;
+  }
+  section#main .fa-home {
+    position: absolute;
+    padding-left: 10px;
+  }
+  section#main .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    width: 99%;
+    height: 100%;
+    border: 2px solid #1E90FF;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#main .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#main .form-input {
+    width: 80%;
+  }
+  /*=================================	End секция Main АДАПТИВ =============================================*/
+  /* ======================= Start секция Tours Main АДАПТИВ ====================================================*/
+  section#tours_main .container {
+    width: 80%;
+    background-color: #fffff0;
+    margin-bottom: 10px;
+  }
+  section#tours_main .card {
+    text-align: center;
+    margin-left: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 98%;
+    height: 100%;
+    border: 2px solid #1E90FF;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#tours_main .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  /* ======================= End секция Tours Main АДАПТИВ ====================================================*/
+  /*=================================	Start секция Transfers АДАПТИВ =============================================*/
+  section#transfers .container {
+    width: 80%;
+    background-color: #fffff0;
+    margin-bottom: 10px;
+  }
+  section#transfers .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-left: -13px;
+    margin-bottom: 5px;
+    width: 105%;
+    height: 100%;
+    border: 2px solid #1E90FF;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#transfers .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  /* секция Transfers*/
+  /* ================================ End секция Transfers АДАПТИВ ===================*/
+  /* ================================ Старт секция Transfers MSC АДАПТИВ ===================*/
+  section#transfers_msk .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#transfers_msk h2 {
+    text-align: center;
+    color: #556B2F ;
+    font-family: "News701BT-RomanA";
+    text-transform: uppercase;
+    font-size: 21px;
+  }
+  section#transfers_msk h4 {
+    font-family: "News701BT-RomanA";
+    color: #1E90FF;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  section#transfers_msk p {
+    text-align: left;
+    padding-left: 15px;
+    font-size: 13px;
+  }
+  section#transfers_msk h2#price {
+    font-family: "News701BT-RomanA";
+    color: #1E90FF;
+    text-transform: uppercase;
+  }
+  section#transfers_msk .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 6%;
+    width: 87%;
+    height: 100%;
+    border: 2px solid #1E90FF;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#transfers_msk .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#transfers_msk .img {
+    text-align: center;
+  }
+  section#transfers_msk .main_buttons {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  section#transfers_msk .main_buttons_msk {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  section#transfers_msk button#get_infomsk {
+    border: none;
+    background-color: #37915b;
+    padding: 10px 23px;
+    margin-bottom: 10px;
+    color: #FFFFF0;
+    font-size: 12px;
+    font-family: "News701BT-RomanA";
+    text-transform: uppercase;
+    border: 2px solid #37915b;
+  }
+  section#transfers_msk button#get_infomsk:hover {
+    background-color: #FFFFF0;
+    color: #37915b;
+    border: 2px solid #37915b;
+  }
+  section#transfers_msk .fa-user {
+    margin-left: 6px;
+  }
+  section#transfers_msk .fa-suitcase {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  section#transfers_msk button#get_booking {
+    border: none;
+    background-color: #FFFFF0;
+    padding: 10px 35px;
+    color: #37915b;
+    font-size: 12px;
+    font-family: "News701BT-RomanA";
+    text-transform: uppercase;
+    border: 2px solid #37915b;
+    margin-bottom: 10px;
+  }
+  section#transfers_msk button#get_booking:hover {
+    background-color: #37915b;
+    color: #FFFFF0;
+    border: 2px solid #37915b;
+  }
+  /* =========================== End секция Transfers MSC АДАПТИВ ========================*/
+  /* ================================ Старт секция Transfers MSC АДАПТИВ ===================*/
+  section#transfers_spb .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#transfers_spb h2 {
+    text-align: center;
+    color: #556B2F ;
+    font-family: "News701BT-RomanA";
+    text-transform: uppercase;
+    font-size: 21px;
+  }
+  section#transfers_spb h4 {
+    font-family: "News701BT-RomanA";
+    color: #1E90FF;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  section#transfers_spb p {
+    text-align: left;
+    padding-left: 15px;
+    font-size: 13px;
+  }
+  section#transfers_spb h2#price {
+    font-family: "News701BT-RomanA";
+    color: #1E90FF;
+    text-transform: uppercase;
+  }
+  section#transfers_spb .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 6%;
+    width: 87%;
+    height: 100%;
+    border: 2px solid #1E90FF;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#transfers_spb .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#transfers_spb .img {
+    text-align: center;
+  }
+  section#transfers_spb .main_buttons {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  section#transfers_spb .main_buttons_msk {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  section#transfers_spb button#get_infomsk {
+    border: none;
+    background-color: #37915b;
+    padding: 10px 23px;
+    margin-bottom: 10px;
+    color: #FFFFF0;
+    font-size: 12px;
+    font-family: "News701BT-RomanA";
+    text-transform: uppercase;
+    border: 2px solid #37915b;
+  }
+  section#transfers_spb button#get_infomsk:hover {
+    background-color: #FFFFF0;
+    color: #37915b;
+    border: 2px solid #37915b;
+  }
+  section#transfers_spb .fa-user {
+    margin-left: 6px;
+  }
+  section#transfers_spb .fa-suitcase {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  section#transfers_spb button#get_booking {
+    border: none;
+    background-color: #FFFFF0;
+    padding: 10px 35px;
+    color: #37915b;
+    font-size: 12px;
+    font-family: "News701BT-RomanA";
+    text-transform: uppercase;
+    border: 2px solid #37915b;
+    margin-bottom: 10px;
+  }
+  section#transfers_spb button#get_booking:hover {
+    background-color: #37915b;
+    color: #FFFFF0;
+    border: 2px solid #37915b;
+  }
+  /* =========================== End секция Transfers MSC АДАПТИВ ========================*/
+  /* ================================ Stars Free Time MSK АДАПТИВ ===================*/
+  section#free_time_msk .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#free_time_msk h2 {
+    color: #556B2F;
+    font-family: "News701BT-RomanA";
+    font-size: 22px;
+  }
+  section#free_time_msk img {
+    width: 31%;
+    height: 100%;
+    margin: 3px;
+  }
+  section#free_time_msk img#sevensist {
+    width: 92%;
+    height: 100%;
+    margin: 3px;
+  }
+  section#free_time_msk img#vdnx {
+    width: 92%;
+    height: 100%;
+    margin: 3px;
+  }
+  section#free_time_msk p {
+    text-align: left;
+    padding-right: 25%;
+    font-size: 14px;
+    font-family: "TimesNewRomanPSMT";
+  }
+  section#free_time_msk p#author {
+    text-align: right;
+    font-family: "TimesNewRomanPSMT";
+    font-size: 100%;
+  }
+  section#free_time_msk h4 {
+    font-family: "aCooperBlack";
+    color: #556B2F;
+    text-transform: uppercase;
+  }
+  section#free_time_msk h5 {
+    font-family: "aCooperBlack";
+    color: #556B2F;
+    text-transform: uppercase;
+  }
+  section#free_time_msk .card-main {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 3%;
+    width: 95%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#free_time_msk .card-main:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#free_time_msk .card-interest {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 3%;
+    width: 95%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#free_time_msk .card-interest:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#free_time_msk .card-sm {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5%;
+    width: 90%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#free_time_msk .card-sm:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  /* =========================== End Free Time MSK АДАПТИВ ========================*/
+  /* ================================ Stars Free Time SPb АДАПТИВ ===================*/
+  section#free_time_spb .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#free_time_spb h2 {
+    color: #556B2F;
+    font-family: "News701BT-RomanA";
+    font-size: 20px;
+  }
+  section#free_time_spb img {
+    width: 55%;
+    height: 100%;
+    margin: 3px;
+  }
+  section#free_time_spb img#therd {
+    width: 55%;
+    height: 100%;
+    margin: 3px;
+  }
+  section#free_time_spb img#vdnx {
+    width: 92%;
+    height: 100%;
+    margin: 3px;
+  }
+  section#free_time_spb p {
+    text-align: left;
+    font-size: 14px;
+    font-family: "TimesNewRomanPSMT";
+  }
+  section#free_time_spb p#author {
+    text-align: right;
+    font-family: "TimesNewRomanPSMT";
+    font-size: 100%;
+  }
+  section#free_time_spb h4 {
+    font-family: "aCooperBlack";
+    color: #556B2F;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  section#free_time_spb h5 {
+    font-family: "aCooperBlack";
+    color: #556B2F;
+    text-transform: uppercase;
+  }
+  section#free_time_spb .card-main {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 3%;
+    width: 95%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#free_time_spb .card-main:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#free_time_spb .card-interest {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 3%;
+    width: 95%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#free_time_spb .card-interest:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#free_time_spb .card-sm {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 8%;
+    width: 84%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#free_time_spb .card-sm:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  /* =========================== End Free Time SPb АДАПТИВ ========================*/
+  /* ================================ Stars Golden АДАПТИВ ===================*/
+  section#golden .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#golden .card-gold {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 25%;
+    width: 48%;
+    height: 90%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#golden .card-gold:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#golden h2 {
+    text-align: center;
+    font-size: 23px;
+  }
+  section#golden h3 {
+    font-size: 15px;
+  }
+  section#golden img {
+    margin-bottom: -14px;
+  }
+  /* =========================== End Golden АДАПТИВ ========================*/
+  /* ================================ Stars Sergiev АДАПТИВ ===================*/
+  section#sergiev .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#sergiev .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -1%;
+    width: 100%;
+    height: 90%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#sergiev .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#sergiev h2 {
+    text-transform: uppercase;
+    color: #556B2F;
+    font-weight: 100;
+    font-family: "aCooperBlack";
+    text-align: center;
+    font-size: 23px;
+  }
+  section#sergiev h3 {
+    font-size: 15px;
+  }
+  section#sergiev img {
+    margin-bottom: 10px;
+    width: 70%;
+  }
+  section#sergiev img#serg {
+    margin-bottom: 10px;
+    width: 35%;
+  }
+  /* =========================== End Sergiev АДАПТИВ ========================*/
+  /* ================================ Stars Pereslavl_Zalessky АДАПТИВ ===================*/
+  section#pereslavl_zalessky .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#pereslavl_zalessky .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -1%;
+    width: 100%;
+    height: 90%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#pereslavl_zalessky .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#pereslavl_zalessky h2 {
+    text-transform: uppercase;
+    color: #556B2F;
+    font-weight: 100;
+    font-family: "aCooperBlack";
+    text-align: center;
+    font-size: 23px;
+  }
+  section#pereslavl_zalessky h3 {
+    font-size: 15px;
+  }
+  section#pereslavl_zalessky img {
+    margin-bottom: 10px;
+    width: 60%;
+  }
+  section#pereslavl_zalessky img#pereslavl {
+    margin-bottom: 10px;
+    width: 30%;
+  }
+  /* =========================== End Pereslavl_Zalessky АДАПТИВ ========================*/
+  /* ================================ Stars Rostov the great АДАПТИВ ===================*/
+  section#rostov_great .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#rostov_great .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -1%;
+    width: 100%;
+    height: 90%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#rostov_great .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#rostov_great h2 {
+    text-transform: uppercase;
+    color: #556B2F;
+    font-weight: 100;
+    font-family: "aCooperBlack";
+    text-align: center;
+    font-size: 21px;
+  }
+  section#rostov_great h3 {
+    font-size: 15px;
+  }
+  section#rostov_great img {
+    margin-bottom: 10px;
+    width: 60%;
+  }
+  section#rostov_great img#rostov {
+    margin-bottom: 10px;
+    width: 30%;
+  }
+  /* =========================== End Rostov the great АДАПТИВ ========================*/
+  /* ================================ Stars Yaroslavl АДАПТИВ ===================*/
+  section#yaroslavl .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#yaroslavl .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -1%;
+    width: 100%;
+    height: 90%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#yaroslavl .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#yaroslavl h2 {
+    text-transform: uppercase;
+    color: #556B2F;
+    font-weight: 100;
+    font-family: "aCooperBlack";
+    text-align: center;
+    font-size: 23px;
+  }
+  section#yaroslavl h3 {
+    font-size: 15px;
+  }
+  section#yaroslavl img {
+    margin-bottom: 10px;
+    width: 50%;
+  }
+  section#yaroslavl img#yaroslavl {
+    margin-bottom: 10px;
+    width: 20%;
+  }
+  /* =========================== End Yaroslavl АДАПТИВ ========================*/
+  /* ================================ Stars Kostroma АДАПТИВ ===================*/
+  section#kostroma .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#kostroma .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -1%;
+    width: 100%;
+    height: 90%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#kostroma .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#kostroma h2 {
+    text-transform: uppercase;
+    color: #556B2F;
+    font-weight: 100;
+    font-family: "aCooperBlack";
+    text-align: center;
+    font-size: 23px;
+  }
+  section#kostroma h3 {
+    font-size: 15px;
+  }
+  section#kostroma img {
+    margin-bottom: 10px;
+    width: 50%;
+  }
+  section#kostroma img#kostroma {
+    margin-bottom: 10px;
+    width: 25%;
+  }
+  /* =========================== End Kostroma АДАПТИВ ========================*/
+  /* ================================ Stars Ivanovo АДАПТИВ ===================*/
+  section#ivanovo .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#ivanovo .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -1%;
+    width: 100%;
+    height: 90%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#ivanovo .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#ivanovo h2 {
+    text-transform: uppercase;
+    color: #556B2F;
+    font-weight: 100;
+    font-family: "aCooperBlack";
+    text-align: center;
+    font-size: 23px;
+  }
+  section#ivanovo h3 {
+    font-size: 15px;
+  }
+  section#ivanovo img {
+    margin-bottom: 10px;
+    width: 50%;
+  }
+  section#ivanovo img#ivanovo {
+    margin-bottom: 10px;
+    width: 25%;
+  }
+  /* =========================== End Ivanovo АДАПТИВ ========================*/
+  /* ================================ Stars Suzdal АДАПТИВ ===================*/
+  section#suzdal .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#suzdal .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -1%;
+    width: 100%;
+    height: 90%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#suzdal .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#suzdal h2 {
+    text-transform: uppercase;
+    color: #556B2F;
+    font-weight: 100;
+    font-family: "aCooperBlack";
+    text-align: center;
+    font-size: 23px;
+  }
+  section#suzdal h3 {
+    font-size: 15px;
+  }
+  section#suzdal img {
+    margin-bottom: 10px;
+    width: 50%;
+  }
+  section#suzdal img#suzdal {
+    margin-bottom: 10px;
+    width: 25%;
+  }
+  /* =========================== End Suzdal АДАПТИВ ========================*/
+  /* ================================ Stars Vladimir АДАПТИВ ===================*/
+  section#vladimir .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#vladimir .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -1%;
+    width: 100%;
+    height: 90%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#vladimir .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#vladimir h2 {
+    text-transform: uppercase;
+    color: #556B2F;
+    font-weight: 100;
+    font-family: "aCooperBlack";
+    text-align: center;
+    font-size: 23px;
+  }
+  section#vladimir h3 {
+    font-size: 15px;
+  }
+  section#vladimir img {
+    margin-bottom: 10px;
+    width: 50%;
+  }
+  section#vladimir img#vladimir {
+    margin-bottom: 10px;
+    width: 25%;
+  }
+  /* =========================== End Vladimir АДАПТИВ ========================*/
+  /*=================================	Stars секция  Footer АДАПТИВ =============================================*/
+  section#footer i.fa-facebook-square {
+    position: absolute;
+    top: 34px;
+    left: 50%;
+    font-size: 25px;
+    color: white;
+  }
+  section#footer i.fa-facebook-square:hover {
+    color: lightgrey;
+  }
+  section#footer i.fa-tripadvisor {
+    position: absolute;
+    margin-top: -24px;
+    left: 55%;
+    font-size: 22px;
+    color: white;
+  }
+  section#footer i.fa-tripadvisor:hover {
+    color: lightgrey;
+  }
+  section#footer p {
+    text-align: center;
+  }
+  section#footer p.phone-phone {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  section#footer p.phone-number {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+  }
+  section#footer p.email {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  section#footer p.mail {
+    text-align: center;
+    color: white;
+  }
+  section#footer p.skype {
+    text-align: center;
+    color: white;
+  }
+  section#footer button#get_answer {
+    margin-left: 36%;
+    text-transform: uppercase;
+    background-color: transparent;
+    padding: 3px 20px;
+    color: white;
+    border: 2px solid white;
+    font-family: "aCooperBlack";
+  }
+  section#footer a#policy {
+    color: white;
+    border-bottom: 2px dashed white;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 36%;
+  }
+  /*=================================	Stars секция  Footer АДАПТИВ =============================================*/
+}
+/*конец 2го медиа*/
+@media (min-width: 768px) and (max-width: 991px) {
+  /*=================================	Start секция Header АДАПТИВ =============================================*/
+  header .container {
+    width: 80%;
+    background-color: #fffff0;
+    margin-bottom: 10px;
+  }
+  header h1 {
+    text-align: center;
+    margin-top: 5px;
+    color: #556B2F;
+    font-family: "Algerian";
+    font-size: 230%;
+  }
+  header h4 {
+    margin-right: auto;
+    margin-top: -5px;
+    margin-bottom: 0%;
+    text-align: center;
+    font-family: "News701BT-RomanA";
+    color: #556B2F;
+    text-transform: uppercase;
+    font-size: 85%;
+  }
+  header p {
+    text-align: center;
+    margin-left: 0%;
+    font-size: 98%;
+    margin-top: -10px;
+  }
+  header img {
+    margin: auto;
+    height: 100px;
+    width: 100px;
+  }
+  header .phone_number {
+    text-align: center;
+  }
+  header a {
+    font-family: "News701BT-RomanA";
+    text-align: center;
+    color: #556B2F;
+    font-size: 120%;
+  }
+  header .fa {
+    margin-right: 10px;
+    color: #1E90FF;
+  }
+  /*=================================	End секция Header АДАПТИВ =============================================*/
+  /*=================================	Start секция Menu АДАПТИВ =============================================*/
+  section#menu .container {
+    width: 80%;
+    background: #37915b;
+    margin-top: 10px;
+  }
+  section#menu .container .dws-menu * {
+    margin: 0;
+    padding: 0;
+  }
+  section#menu .container .dws-menu ul,
+  section#menu .container .dws-menu ol {
+    list-style: none;
+  }
+  section#menu .container .dws-menu ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  section#menu .container .dws-menu > ul li a {
+    display: block;
+    background: #37915b;
+    padding: 10px 13px 10px 40px;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: white;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  section#menu .container .dws-menu > ul li {
+    position: relative;
+    border-right: 1px solid darkgreen;
+  }
+  section#menu .container .dws-menu > ul li > a i.fa {
+    position: absolute;
+    top: 11px;
+    left: 12px;
+    font-size: 20px;
+  }
+  section#menu .container .dws-menu > ul li:first-child {
+    border-left: 1px solid darkgreen;
+  }
+  section#menu .container .dws-menu > ul li:last-child {
+    border-right: 1px solid darkgreen;
+  }
+  section#menu .container .dws-menu li a:hover {
+    background: green;
+    /*Цвает при наведении на кнопку */
+    color: Gray;
+    -webkit-box-shadow: 1px 5px 10px -5px #ffffff;
+            box-shadow: 1px 5px 10px -5px #ffffff;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  section#menu .container .dws-menu li ul {
+    position: absolute;
+    min-width: 150px;
+    display: none;
+  }
+  section#menu .container .dws-menu li > ul li {
+    border: 1px solid darkgreen;
+  }
+  section#menu .container .dws-menu li > ul li a {
+    padding: 10px;
+    text-transform: none;
+    background: green;
+  }
+  section#menu .container .dws-menu li:hover > ul {
+    display: block;
+    z-index: 99999;
+  }
+  section#menu .container .fa {
+    margin-top: -4px;
+    margin-left: -2px;
+  }
+  /*=================================	End секция Menu АДАПТИВ =============================================*/
+  /*=================================	Start секция Main АДАПТИВ =============================================*/
+  section#main .container {
+    width: 80%;
+    background-color: #fffff0;
+    margin-bottom: 10px;
+  }
+  section#main .fa-home {
+    position: absolute;
+    padding-left: 10px;
+  }
+  section#main .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    width: 99%;
+    height: 100%;
+    border: 2px solid #1E90FF;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#main .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#main .form-input {
+    width: 80%;
+  }
+  /*=================================	End секция Main АДАПТИВ =============================================*/
+  /* ======================= Start секция Tours Main АДАПТИВ ====================================================*/
+  section#tours_main .container {
+    width: 80%;
+    background-color: #fffff0;
+    margin-bottom: 10px;
+  }
+  section#tours_main .card {
+    text-align: center;
+    margin-left: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 98%;
+    height: 100%;
+    border: 2px solid #1E90FF;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#tours_main .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  /* ======================= End секция Tours Main АДАПТИВ ====================================================*/
+  /*=================================	Start секция Transfers АДАПТИВ =============================================*/
+  section#transfers .container {
+    width: 80%;
+    background-color: #fffff0;
+    margin-bottom: 10px;
+  }
+  section#transfers .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 0%;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #1E90FF;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#transfers .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  /* секция Transfers*/
+  /* ================================ End секция Transfers АДАПТИВ ===================*/
+  /* ================================ Старт секция Transfers MSC АДАПТИВ ===================*/
+  section#transfers_msk .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#transfers_msk h2 {
+    text-align: center;
+    color: #556B2F ;
+    font-family: "News701BT-RomanA";
+    text-transform: uppercase;
+    font-size: 21px;
+  }
+  section#transfers_msk h4 {
+    font-family: "News701BT-RomanA";
+    color: #1E90FF;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  section#transfers_msk p {
+    text-align: left;
+    padding-left: 15px;
+    font-size: 13px;
+  }
+  section#transfers_msk h2#price {
+    font-family: "News701BT-RomanA";
+    color: #1E90FF;
+    text-transform: uppercase;
+  }
+  section#transfers_msk .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 6%;
+    width: 87%;
+    height: 100%;
+    border: 2px solid #1E90FF;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#transfers_msk .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#transfers_msk .img {
+    text-align: center;
+  }
+  section#transfers_msk .main_buttons {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  section#transfers_msk .main_buttons_msk {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  section#transfers_msk button#get_infomsk {
+    border: none;
+    background-color: #37915b;
+    padding: 10px 23px;
+    margin-bottom: 10px;
+    color: #FFFFF0;
+    font-size: 12px;
+    font-family: "News701BT-RomanA";
+    text-transform: uppercase;
+    border: 2px solid #37915b;
+  }
+  section#transfers_msk button#get_infomsk:hover {
+    background-color: #FFFFF0;
+    color: #37915b;
+    border: 2px solid #37915b;
+  }
+  section#transfers_msk .fa-user {
+    margin-left: 6px;
+  }
+  section#transfers_msk .fa-suitcase {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  section#transfers_msk button#get_booking {
+    border: none;
+    background-color: #FFFFF0;
+    padding: 10px 35px;
+    color: #37915b;
+    font-size: 12px;
+    font-family: "News701BT-RomanA";
+    text-transform: uppercase;
+    border: 2px solid #37915b;
+    margin-bottom: 10px;
+  }
+  section#transfers_msk button#get_booking:hover {
+    background-color: #37915b;
+    color: #FFFFF0;
+    border: 2px solid #37915b;
+  }
+  /* =========================== End секция Transfers MSC АДАПТИВ ========================*/
+  /* ================================ Старт секция Transfers MSC АДАПТИВ ===================*/
+  section#transfers_spb .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#transfers_spb h2 {
+    text-align: center;
+    color: #556B2F ;
+    font-family: "News701BT-RomanA";
+    text-transform: uppercase;
+    font-size: 21px;
+  }
+  section#transfers_spb h4 {
+    font-family: "News701BT-RomanA";
+    color: #1E90FF;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  section#transfers_spb p {
+    text-align: left;
+    padding-left: 15px;
+    font-size: 13px;
+  }
+  section#transfers_spb h2#price {
+    font-family: "News701BT-RomanA";
+    color: #1E90FF;
+    text-transform: uppercase;
+  }
+  section#transfers_spb .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 6%;
+    width: 87%;
+    height: 100%;
+    border: 2px solid #1E90FF;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#transfers_spb .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#transfers_spb .img {
+    text-align: center;
+  }
+  section#transfers_spb .main_buttons {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  section#transfers_spb .main_buttons_msk {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  section#transfers_spb button#get_infomsk {
+    border: none;
+    background-color: #37915b;
+    padding: 10px 23px;
+    margin-bottom: 10px;
+    color: #FFFFF0;
+    font-size: 12px;
+    font-family: "News701BT-RomanA";
+    text-transform: uppercase;
+    border: 2px solid #37915b;
+  }
+  section#transfers_spb button#get_infomsk:hover {
+    background-color: #FFFFF0;
+    color: #37915b;
+    border: 2px solid #37915b;
+  }
+  section#transfers_spb .fa-user {
+    margin-left: 6px;
+  }
+  section#transfers_spb .fa-suitcase {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  section#transfers_spb button#get_booking {
+    border: none;
+    background-color: #FFFFF0;
+    padding: 10px 35px;
+    color: #37915b;
+    font-size: 12px;
+    font-family: "News701BT-RomanA";
+    text-transform: uppercase;
+    border: 2px solid #37915b;
+    margin-bottom: 10px;
+  }
+  section#transfers_spb button#get_booking:hover {
+    background-color: #37915b;
+    color: #FFFFF0;
+    border: 2px solid #37915b;
+  }
+  /* =========================== End секция Transfers MSC АДАПТИВ ========================*/
+  /* ================================ Stars Free Time MSK АДАПТИВ ===================*/
+  section#free_time_msk .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#free_time_msk h2 {
+    color: #556B2F;
+    font-family: "News701BT-RomanA";
+    font-size: 22px;
+  }
+  section#free_time_msk img {
+    width: 50%;
+    height: 100%;
+    margin: 3px;
+  }
+  section#free_time_msk img#img_free {
+    width: 25%;
+    height: 100%;
+    margin: 3px;
+  }
+  section#free_time_msk img#sevensist {
+    width: 92%;
+    height: 100%;
+    margin: 3px;
+  }
+  section#free_time_msk img#vdnx {
+    width: 92%;
+    height: 100%;
+    margin: 3px;
+  }
+  section#free_time_msk p {
+    text-align: left;
+    padding-right: 25%;
+    font-size: 14px;
+    font-family: "TimesNewRomanPSMT";
+  }
+  section#free_time_msk p#author {
+    text-align: right;
+    font-family: "TimesNewRomanPSMT";
+    font-size: 100%;
+  }
+  section#free_time_msk h4 {
+    font-family: "aCooperBlack";
+    color: #556B2F;
+    text-transform: uppercase;
+  }
+  section#free_time_msk h5 {
+    font-family: "aCooperBlack";
+    color: #556B2F;
+    text-transform: uppercase;
+  }
+  section#free_time_msk .card-main {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 3%;
+    width: 95%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#free_time_msk .card-main:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#free_time_msk .card-interest {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 3%;
+    width: 95%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#free_time_msk .card-interest:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#free_time_msk .card-sm {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5%;
+    width: 91%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#free_time_msk .card-sm:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  /* =========================== End Free Time MSK АДАПТИВ ========================*/
+  /* ================================ Stars Free Time SPb АДАПТИВ ===================*/
+  section#free_time_spb .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#free_time_spb h2 {
+    color: #556B2F;
+    font-family: "News701BT-RomanA";
+    font-size: 20px;
+  }
+  section#free_time_spb img {
+    width: 35%;
+    height: 100%;
+    margin: 3px;
+  }
+  section#free_time_spb img#second {
+    width: 35%;
+    height: 100%;
+    margin: 3px;
+  }
+  section#free_time_spb img#therd {
+    width: 39%;
+    height: 100%;
+    margin: 3px;
+  }
+  section#free_time_spb p {
+    text-align: left;
+    font-size: 14px;
+    font-family: "TimesNewRomanPSMT";
+  }
+  section#free_time_spb p#author {
+    text-align: right;
+    font-family: "TimesNewRomanPSMT";
+    font-size: 100%;
+  }
+  section#free_time_spb h4 {
+    font-family: "aCooperBlack";
+    color: #556B2F;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  section#free_time_spb h5 {
+    font-family: "aCooperBlack";
+    color: #556B2F;
+    text-transform: uppercase;
+  }
+  section#free_time_spb .card-main {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 3%;
+    width: 95%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#free_time_spb .card-main:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#free_time_spb .card-interest {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 3%;
+    width: 95%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#free_time_spb .card-interest:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#free_time_spb .card-sm {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5%;
+    width: 91%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#free_time_spb .card-sm:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  /* =========================== End Free Time SPb АДАПТИВ ========================*/
+  /* ================================ Stars Golden АДАПТИВ ===================*/
+  section#golden .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#golden .card-gold {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 17%;
+    width: 70%;
+    height: 90%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#golden .card-gold:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#golden h2 {
+    text-align: center;
+    font-size: 23px;
+  }
+  section#golden h3 {
+    font-size: 15px;
+  }
+  section#golden img {
+    margin-bottom: -14px;
+  }
+  section#golden img#sergiev {
+    margin-top: 5px;
+    width: 55%;
+  }
+  /* =========================== End Golden АДАПТИВ ========================*/
+  /* ================================ Stars Sergiev АДАПТИВ ===================*/
+  section#sergiev .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#sergiev .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -1%;
+    width: 100%;
+    height: 90%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#sergiev .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#sergiev h2 {
+    text-transform: uppercase;
+    color: #556B2F;
+    font-weight: 100;
+    font-family: "aCooperBlack";
+    text-align: center;
+    font-size: 23px;
+  }
+  section#sergiev h3 {
+    font-size: 15px;
+  }
+  section#sergiev img {
+    margin-bottom: 10px;
+    width: 30%;
+  }
+  /* =========================== End Sergiev АДАПТИВ ========================*/
+  /* ================================ Stars Pereslavl_Zalessky АДАПТИВ ===================*/
+  section#pereslavl_zalessky .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#pereslavl_zalessky .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -1%;
+    width: 100%;
+    height: 90%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#pereslavl_zalessky .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#pereslavl_zalessky h2 {
+    text-transform: uppercase;
+    color: #556B2F;
+    font-weight: 100;
+    font-family: "aCooperBlack";
+    text-align: center;
+    font-size: 23px;
+  }
+  section#pereslavl_zalessky h3 {
+    font-size: 15px;
+  }
+  section#pereslavl_zalessky img {
+    margin-bottom: 10px;
+    width: 25%;
+  }
+  /* =========================== End Pereslavl_Zalessky АДАПТИВ ========================*/
+  /* ================================ Stars Rostov the great АДАПТИВ ===================*/
+  section#rostov_great .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#rostov_great .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -1%;
+    width: 100%;
+    height: 90%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#rostov_great .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#rostov_great h2 {
+    text-transform: uppercase;
+    color: #556B2F;
+    font-weight: 100;
+    font-family: "aCooperBlack";
+    text-align: center;
+    font-size: 21px;
+  }
+  section#rostov_great h3 {
+    font-size: 15px;
+  }
+  section#rostov_great img {
+    margin-bottom: 10px;
+    width: 25%;
+  }
+  /* =========================== End Rostov the great АДАПТИВ ========================*/
+  /* ================================ Stars Yaroslavl АДАПТИВ ===================*/
+  section#yaroslavl .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#yaroslavl .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -1%;
+    width: 100%;
+    height: 90%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#yaroslavl .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#yaroslavl h2 {
+    text-transform: uppercase;
+    color: #556B2F;
+    font-weight: 100;
+    font-family: "aCooperBlack";
+    text-align: center;
+    font-size: 23px;
+  }
+  section#yaroslavl h3 {
+    font-size: 15px;
+  }
+  section#yaroslavl img {
+    margin-bottom: 10px;
+    width: 65%;
+  }
+  section#yaroslavl img#yaroslavl {
+    margin-bottom: 10px;
+    width: 20%;
+  }
+  /* =========================== End Yaroslavl АДАПТИВ ========================*/
+  /* ================================ Stars Kostroma АДАПТИВ ===================*/
+  section#kostroma .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#kostroma .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -1%;
+    width: 100%;
+    height: 90%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#kostroma .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#kostroma h2 {
+    text-transform: uppercase;
+    color: #556B2F;
+    font-weight: 100;
+    font-family: "aCooperBlack";
+    text-align: center;
+    font-size: 23px;
+  }
+  section#kostroma h3 {
+    font-size: 15px;
+  }
+  section#kostroma img {
+    margin-bottom: 10px;
+    width: 50%;
+  }
+  section#kostroma img#kostroma {
+    margin-bottom: 10px;
+    width: 25%;
+  }
+  /* =========================== End Kostroma АДАПТИВ ========================*/
+  /* ================================ Stars Ivanovo АДАПТИВ ===================*/
+  section#ivanovo .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#ivanovo .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -1%;
+    width: 100%;
+    height: 90%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#ivanovo .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#ivanovo h2 {
+    text-transform: uppercase;
+    color: #556B2F;
+    font-weight: 100;
+    font-family: "aCooperBlack";
+    text-align: center;
+    font-size: 23px;
+  }
+  section#ivanovo h3 {
+    font-size: 15px;
+  }
+  section#ivanovo img {
+    margin-bottom: 10px;
+    width: 50%;
+  }
+  section#ivanovo img#ivanovo {
+    margin-bottom: 10px;
+    width: 25%;
+  }
+  /* =========================== End Ivanovo АДАПТИВ ========================*/
+  /* ================================ Stars Suzdal АДАПТИВ ===================*/
+  section#suzdal .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#suzdal .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -1%;
+    width: 100%;
+    height: 90%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#suzdal .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#suzdal h2 {
+    text-transform: uppercase;
+    color: #556B2F;
+    font-weight: 100;
+    font-family: "aCooperBlack";
+    text-align: center;
+    font-size: 23px;
+  }
+  section#suzdal h3 {
+    font-size: 15px;
+  }
+  section#suzdal img {
+    margin-bottom: 10px;
+    width: 50%;
+  }
+  section#suzdal img#suzdal {
+    margin-bottom: 10px;
+    width: 25%;
+  }
+  /* =========================== End Suzdal АДАПТИВ ========================*/
+  /* ================================ Stars Vladimir АДАПТИВ ===================*/
+  section#vladimir .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#vladimir .card {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -1%;
+    width: 100%;
+    height: 90%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#vladimir .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#vladimir h2 {
+    text-transform: uppercase;
+    color: #556B2F;
+    font-weight: 100;
+    font-family: "aCooperBlack";
+    text-align: center;
+    font-size: 23px;
+  }
+  section#vladimir h3 {
+    font-size: 15px;
+  }
+  section#vladimir img {
+    margin-bottom: 10px;
+    width: 50%;
+  }
+  section#vladimir img#vladimir {
+    margin-bottom: 10px;
+    width: 25%;
+  }
+  /* =========================== End Vladimir АДАПТИВ ========================*/
+  /*=================================	Stars секция  Footer АДАПТИВ =============================================*/
+  section#footer .col-sm-3 {
+    width: 32%;
+  }
+  section#footer i.fa-facebook-square {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    font-size: 25px;
+    color: white;
+  }
+  section#footer i.fa-facebook-square:hover {
+    color: lightgrey;
+  }
+  section#footer i.fa-tripadvisor {
+    position: absolute;
+    margin-top: -24px;
+    left: 55%;
+    font-size: 22px;
+    color: white;
+  }
+  section#footer i.fa-tripadvisor:hover {
+    color: lightgrey;
+  }
+  section#footer h5 {
+    font-size: 20px;
+  }
+  section#footer p {
+    text-align: center;
+  }
+  section#footer p.phone-phone {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  section#footer p.phone-number {
+    color: white;
+    font-size: 15px;
+  }
+  section#footer p.email {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  section#footer p.mail {
+    color: white;
+  }
+  section#footer p.skype {
+    color: white;
+  }
+  section#footer button#get_answer {
+    margin-left: 36%;
+    text-transform: uppercase;
+    background-color: transparent;
+    padding: 3px 20px;
+    color: white;
+    border: 2px solid white;
+    font-family: "aCooperBlack";
+  }
+  section#footer a#policy {
+    color: white;
+    border-bottom: 2px dashed white;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 36%;
+  }
+  /*=================================	Stars секция  Footer АДАПТИВ =============================================*/
+}
+/*конец 3го медиа*/
+@media (min-width: 992px) and (max-width: 1200px) {
+  /*=================================	Start секция Header АДАПТИВ =============================================*/
+  header .container {
+    width: 80%;
+    background-color: #fffff0;
+    margin-bottom: 10px;
+  }
+  header h1 {
+    font-size: 36px;
+    margin-top: 2%;
+    margin-left: 1%;
+  }
+  header h4 {
+    font-size: 15px;
+    margin-top: -2%;
+    margin-left: 2%;
+  }
+  header a {
+    font-family: "News701BT-RomanA";
+    margin-left: 10px;
+    font-size: 24px;
+    color: #556B2F;
+  }
+  header h3 {
+    margin-top: 1%;
+    margin-left: 40%;
+  }
+  header p {
+    font-size: 19px;
+    margin-top: -6%;
+    margin-left: 36%;
+    margin-bottom: 5%;
+  }
+  /*=================================	End секция Header АДАПТИВ =============================================*/
+  /*=================================	Start секция Menu АДАПТИВ =============================================*/
+  section#menu .container {
+    width: 80%;
+    background: #37915b;
+    margin-top: 10px;
+  }
+  section#menu .container .dws-menu * {
+    margin: 0;
+    padding: 0;
+  }
+  section#menu .container .dws-menu ul,
+  section#menu .container .dws-menu ol {
+    list-style: none;
+  }
+  section#menu .container .dws-menu ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  section#menu .container .dws-menu > ul li a {
+    display: block;
+    background: #37915b;
+    padding: 10px 13px 10px 40px;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: white;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  section#menu .container .dws-menu > ul li {
+    position: relative;
+    border-right: 1px solid darkgreen;
+  }
+  section#menu .container .dws-menu > ul li > a i.fa {
+    position: absolute;
+    top: 11px;
+    left: 12px;
+    font-size: 20px;
+  }
+  section#menu .container .dws-menu > ul li:first-child {
+    border-left: 1px solid darkgreen;
+  }
+  section#menu .container .dws-menu > ul li:last-child {
+    border-right: 1px solid darkgreen;
+  }
+  section#menu .container .dws-menu li a:hover {
+    background: green;
+    /*Цвает при наведении на кнопку */
+    color: Gray;
+    -webkit-box-shadow: 1px 5px 10px -5px #ffffff;
+            box-shadow: 1px 5px 10px -5px #ffffff;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  section#menu .container .dws-menu li ul {
+    position: absolute;
+    min-width: 150px;
+    display: none;
+  }
+  section#menu .container .dws-menu li > ul li {
+    border: 1px solid darkgreen;
+  }
+  section#menu .container .dws-menu li > ul li a {
+    padding: 10px;
+    text-transform: none;
+    background: green;
+  }
+  section#menu .container .dws-menu li:hover > ul {
+    display: block;
+    z-index: 99999;
+  }
+  section#menu .container .fa {
+    margin-top: -4px;
+    margin-left: -2px;
+  }
+  /*=================================	End секция Menu АДАПТИВ =============================================*/
+  /*=================================	Start секция Main АДАПТИВ =============================================*/
+  section#main .card {
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #1E90FF;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#main .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#main .form-input {
+    display: block;
+    width: 80%;
+    margin: 7%;
+    margin-bottom: 25px;
+    border: 2px solid #1E90FF;
+    border-radius: 5px;
+  }
+  /*=================================	End секция Main АДАПТИВ =============================================*/
+  /*=================================	Start секция Main АДАПТИВ =============================================*/
+  section#transfers .card {
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #1E90FF;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#transfers .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  /*=================================	End секция Transfers АДАПТИВ =============================================*/
+  /*=================================	Start секция Transfers АДАПТИВ =============================================*/
+  section#tours_main .card {
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #1E90FF;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#tours_main .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#tours_main .main_buttons button#get_info {
+    border: none;
+    background-color: #37915b;
+    padding: 7px 25px;
+    color: #FFFFF0;
+    font-size: 10px;
+    font-family: "News701BT-RomanA";
+    text-transform: uppercase;
+    border: 2px solid #37915b;
+  }
+  section#tours_main h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: green;
+  }
+  /*=================================	End секция Tours Main АДАПТИВ =============================================*/
+  /*=================================	Start секция Tours Main АДАПТИВ =============================================*/
+  section#transfers_msk .card {
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5%;
+    width: 90%;
+    height: 100%;
+    border: 2px solid #1E90FF;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#transfers_msk .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#transfers_msk button#get_infomsk {
+    display: block;
+    margin: auto;
+    border: none;
+    background-color: #37915b;
+    padding: 10px 23px;
+    margin-bottom: 10px;
+    color: #FFFFF0;
+    font-size: 12px;
+    font-family: "News701BT-RomanA";
+    text-transform: uppercase;
+    border: 2px solid #37915b;
+  }
+  section#transfers_msk button#get_infomsk:hover {
+    background-color: #FFFFF0;
+    color: #37915b;
+    border: 2px solid #37915b;
+  }
+  section#transfers_msk h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1E90FF;
+  }
+  /*=================================	End секция Transfer MCK АДАПТИВ =============================================*/
+  /*=================================	Start секция Transfer MCK АДАПТИВ =============================================*/
+  section#transfers_spb .card {
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5%;
+    width: 90%;
+    height: 100%;
+    border: 2px solid #1E90FF;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#transfers_spb .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#transfers_spb button#get_info_spb {
+    display: block;
+    margin: auto;
+    border: none;
+    background-color: #37915b;
+    padding: 10px 23px;
+    margin-bottom: 10px;
+    color: #FFFFF0;
+    font-size: 12px;
+    font-family: "News701BT-RomanA";
+    text-transform: uppercase;
+    border: 2px solid #37915b;
+  }
+  section#transfers_spb button#get_info_spb:hover {
+    background-color: #FFFFF0;
+    color: #37915b;
+    border: 2px solid #37915b;
+  }
+  section#transfers_spb h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1E90FF;
+  }
+  /*=================================	End секция Transfer SPb АДАПТИВ =============================================*/
+  /*=================================	Start секция Transfer SPb АДАПТИВ =============================================*/
+  section#free_time_msk .card {
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5%;
+    width: 90%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#free_time_msk .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#free_time_msk h4 {
+    color: #556B2F;
+  }
+  section#free_time_msk img {
+    width: 30%;
+    height: 0%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  section#free_time_msk .card-main {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 3%;
+    width: 95%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#free_time_msk .card-main:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#free_time_msk .card-interest {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 3%;
+    width: 95%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#free_time_msk .card-interest:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#free_time_msk .card-sm {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5%;
+    width: 91%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#free_time_msk .card-sm:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  /*=================================	End секция Free time MCK АДАПТИВ =============================================*/
+  /*=================================	Start секция Free time SPb АДАПТИВ =============================================*/
+  section#free_time_spb .card {
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5%;
+    width: 90%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#free_time_spb .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#free_time_spb h4 {
+    color: #556B2F;
+  }
+  section#free_time_spb img {
+    display: block;
+    width: 30%;
+    height: 0%;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  section#free_time_spb p#plan {
+    margin-left: 10%;
+  }
+  /*=================================	End секция Free time SPb АДАПТИВ =============================================*/
+  /*=================================	Start секция Free time Golden АДАПТИВ =============================================*/
+  section#golden .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#golden .card-gold {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15%;
+    width: 70%;
+    height: 90%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#golden .card-gold:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#golden h2 {
+    text-align: center;
+    font-size: 23px;
+  }
+  section#golden h3 {
+    font-size: 15px;
+  }
+  section#golden img {
+    margin-bottom: -14px;
+  }
+  section#golden img#sergiev {
+    margin-top: 5px;
+    width: 55%;
+  }
+  /*=================================	End секция Golden  АДАПТИВ =============================================*/
+  /*=================================	Start секция Pereslavl  АДАПТИВ =============================================*/
+  section#pereslavl_zalessky img#pereslavl {
+    width: 20%;
+  }
+  /*=================================	End секция Pereslavl АДАПТИВ =============================================*/
+  /*=================================	Start секция Rostov АДАПТИВ =============================================*/
+  section#rostov_great img#rostov {
+    width: 20%;
+  }
+  /*=================================	End секция Rostov АДАПТИВ =============================================*/
+  /*=================================	Start секция Yaroslavl АДАПТИВ =============================================*/
+  section#yaroslavl img#yaroslavl {
+    width: 15%;
+  }
+  section#yaroslavl img {
+    width: 80%;
+  }
+  /*=================================	End секция Yaroslavl АДАПТИВ =============================================*/
+  /*=================================	Start секция kostroma АДАПТИВ =============================================*/
+  section#kostroma img#kostroma {
+    width: 20%;
+  }
+  section#kostroma img {
+    width: 100%;
+  }
+  /*=================================	End секция kostroma АДАПТИВ =============================================*/
+  /*=================================	Start секция ivanovo АДАПТИВ =============================================*/
+  section#ivanovo img#ivanovo {
+    width: 20%;
+  }
+  /*=================================	End секция ivanovo АДАПТИВ =============================================*/
+  /*=================================	Start секция ivanovo АДАПТИВ =============================================*/
+  section#suzdal img#suzdal {
+    width: 20%;
+  }
+  /*=================================	End секция ivanovo АДАПТИВ =============================================*/
+  /*=================================	Start секция ivanovo АДАПТИВ =============================================*/
+  section#vladimir img#vladimir {
+    width: 20%;
+  }
+  /*=================================	End секция ivanovo АДАПТИВ =============================================*/
+  /*=================================	End секция Footer АДАПТИВ =============================================*/
+  section#footer i.fa-facebook-square {
+    position: absolute;
+    top: 27.5%;
+    left: 85.5%;
+    font-size: 28px;
+    color: white;
+  }
+  section#footer i.fa-tripadvisor {
+    position: absolute;
+    margin-top: -3%;
+    left: 89.5%;
+    font-size: 27px;
+    color: white;
+  }
+  section#footer p.propety {
+    font-size: 13px;
+  }
+  /*=================================	End секция Footer АДАПТИВ =============================================*/
+}
+/* Media on min-width:768px and max-width:992px*/
+@media (min-width: 1201px) and (max-width: 1500px) {
+  /*=================================	Start секция Header АДАПТИВ =============================================*/
+  header .container {
+    width: 80%;
+    background-color: #fffff0;
+    margin-bottom: 10px;
+  }
+  header h1 {
+    font-size: 38px;
+    margin-top: -1%;
+    margin-left: 15%;
+  }
+  header h4 {
+    font-size: 17px;
+    margin-top: -1rem;
+    margin-left: 17rem;
+  }
+  header a {
+    margin-top: 1%;
+    margin-left: 15%;
+  }
+  header p {
+    font-size: 20px;
+    margin-top: -4.5%;
+    margin-left: 50%;
+    margin-bottom: 5%;
+  }
+  /*=================================	End секция Header АДАПТИВ =============================================*/
+  /*=================================	Start секция Menu АДАПТИВ =============================================*/
+  section#menu .container {
+    width: 80%;
+    background: #37915b;
+    margin-top: 10px;
+  }
+  section#menu .container .dws-menu * {
+    margin: 0;
+    padding: 0;
+  }
+  section#menu .container .dws-menu ul,
+  section#menu .container .dws-menu ol {
+    list-style: none;
+  }
+  section#menu .container .dws-menu ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  section#menu .container .dws-menu > ul li a {
+    display: block;
+    background: #37915b;
+    padding: 10px 13px 10px 40px;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: white;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  section#menu .container .dws-menu > ul li {
+    position: relative;
+    border-right: 1px solid darkgreen;
+  }
+  section#menu .container .dws-menu > ul li > a i.fa {
+    position: absolute;
+    top: 11px;
+    left: 12px;
+    font-size: 20px;
+  }
+  section#menu .container .dws-menu > ul li:first-child {
+    border-left: 1px solid darkgreen;
+  }
+  section#menu .container .dws-menu > ul li:last-child {
+    border-right: 1px solid darkgreen;
+  }
+  section#menu .container .dws-menu li a:hover {
+    background: green;
+    /*Цвает при наведении на кнопку */
+    color: Gray;
+    -webkit-box-shadow: 1px 5px 10px -5px #ffffff;
+            box-shadow: 1px 5px 10px -5px #ffffff;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  section#menu .container .dws-menu li ul {
+    position: absolute;
+    min-width: 150px;
+    display: none;
+  }
+  section#menu .container .dws-menu li > ul li {
+    border: 1px solid darkgreen;
+  }
+  section#menu .container .dws-menu li > ul li a {
+    padding: 10px;
+    text-transform: none;
+    background: green;
+  }
+  section#menu .container .dws-menu li:hover > ul {
+    display: block;
+    z-index: 99999;
+  }
+  section#menu .container .fa {
+    margin-top: -4px;
+    margin-left: -2px;
+  }
+  /*=================================	End секция Menu АДАПТИВ =============================================*/
+  /*=================================	Start секция Main АДАПТИВ =============================================*/
+  section#main .card {
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    width: 97%;
+    height: 100%;
+    border: 2px solid #1E90FF;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#main .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  /*=================================	End секция Main АДАПТИВ =============================================*/
+  /*=================================	Start секция Main АДАПТИВ =============================================*/
+  section#transfers .card {
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #1E90FF;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#transfers .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  /*=================================	End секция Transfers АДАПТИВ =============================================*/
+  /*=================================	Start секция Transfers АДАПТИВ =============================================*/
+  section#tours_main .card {
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #1E90FF;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#tours_main .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#tours_main .main_buttons button#get_info {
+    border: none;
+    background-color: #37915b;
+    padding: 7px 25px;
+    color: #FFFFF0;
+    font-size: 10px;
+    font-family: "News701BT-RomanA";
+    text-transform: uppercase;
+    border: 2px solid #37915b;
+  }
+  section#tours_main h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: green;
+  }
+  /*=================================	End секция Tours Main АДАПТИВ =============================================*/
+  /*=================================	Start секция Tours Main АДАПТИВ =============================================*/
+  section#transfers_msk .card {
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5%;
+    width: 90%;
+    height: 100%;
+    border: 2px solid #1E90FF;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#transfers_msk .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#transfers_msk button#get_infomsk {
+    display: block;
+    margin: auto;
+    border: none;
+    background-color: #37915b;
+    padding: 10px 23px;
+    margin-bottom: 10px;
+    color: #FFFFF0;
+    font-size: 12px;
+    font-family: "News701BT-RomanA";
+    text-transform: uppercase;
+    border: 2px solid #37915b;
+  }
+  section#transfers_msk button#get_infomsk:hover {
+    background-color: #FFFFF0;
+    color: #37915b;
+    border: 2px solid #37915b;
+  }
+  section#transfers_msk h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1E90FF;
+  }
+  /*=================================	End секция Transfer MCK АДАПТИВ =============================================*/
+  /*=================================	Start секция Transfer MCK АДАПТИВ =============================================*/
+  section#transfers_spb .card {
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5%;
+    width: 90%;
+    height: 100%;
+    border: 2px solid #1E90FF;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#transfers_spb .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#transfers_spb button#get_info_spb {
+    display: block;
+    margin: auto;
+    border: none;
+    background-color: #37915b;
+    padding: 10px 23px;
+    margin-bottom: 10px;
+    color: #FFFFF0;
+    font-size: 12px;
+    font-family: "News701BT-RomanA";
+    text-transform: uppercase;
+    border: 2px solid #37915b;
+  }
+  section#transfers_spb button#get_info_spb:hover {
+    background-color: #FFFFF0;
+    color: #37915b;
+    border: 2px solid #37915b;
+  }
+  section#transfers_spb h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1E90FF;
+  }
+  /*=================================	End секция Transfer SPb АДАПТИВ =============================================*/
+  /*=================================	Start секция Transfer SPb АДАПТИВ =============================================*/
+  section#free_time_msk .card {
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5%;
+    width: 90%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#free_time_msk .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#free_time_msk h4 {
+    color: #556B2F;
+  }
+  section#free_time_msk img {
+    width: 30%;
+    height: 0%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  section#free_time_msk .card-main {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 3%;
+    width: 95%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#free_time_msk .card-main:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#free_time_msk .card-interest {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 3%;
+    width: 95%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#free_time_msk .card-interest:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#free_time_msk .card-sm {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5%;
+    width: 91%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#free_time_msk .card-sm:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  /*=================================	End секция Free time MCK АДАПТИВ =============================================*/
+  /*=================================	Start секция Free time SPb АДАПТИВ =============================================*/
+  section#free_time_spb .card {
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5%;
+    width: 90%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#free_time_spb .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#free_time_spb h4 {
+    color: #556B2F;
+  }
+  section#free_time_spb img {
+    display: block;
+    width: 30%;
+    height: 0%;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  section#free_time_spb p#plan {
+    margin-left: 10%;
+  }
+  /*=================================	End секция Free time SPb АДАПТИВ =============================================*/
+  /*=================================	Start секция Free time Golden АДАПТИВ =============================================*/
+  section#golden .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#golden .card-gold {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15%;
+    width: 70%;
+    height: 90%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#golden .card-gold:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#golden h2 {
+    text-align: center;
+    font-size: 23px;
+  }
+  section#golden h3 {
+    font-size: 15px;
+  }
+  section#golden img {
+    margin-bottom: -14px;
+  }
+  section#golden img#sergiev {
+    margin-top: 5px;
+    width: 55%;
+  }
+  /*=================================	End секция Golden  АДАПТИВ =============================================*/
+  /*=================================	Start секция Pereslavl  АДАПТИВ =============================================*/
+  section#pereslavl_zalessky img#pereslavl {
+    width: 20%;
+  }
+  /*=================================	End секция Pereslavl АДАПТИВ =============================================*/
+  /*=================================	Start секция Rostov АДАПТИВ =============================================*/
+  section#rostov_great img#rostov {
+    width: 20%;
+  }
+  /*=================================	End секция Rostov АДАПТИВ =============================================*/
+  /*=================================	Start секция Yaroslavl АДАПТИВ =============================================*/
+  section#yaroslavl img#yaroslavl {
+    width: 15%;
+  }
+  section#yaroslavl img {
+    width: 80%;
+  }
+  /*=================================	End секция Yaroslavl АДАПТИВ =============================================*/
+  /*=================================	Start секция kostroma АДАПТИВ =============================================*/
+  section#kostroma img#kostroma {
+    width: 20%;
+  }
+  section#kostroma img {
+    width: 100%;
+  }
+  /*=================================	End секция kostroma АДАПТИВ =============================================*/
+  /*=================================	Start секция ivanovo АДАПТИВ =============================================*/
+  section#ivanovo img#ivanovo {
+    width: 20%;
+  }
+  /*=================================	End секция ivanovo АДАПТИВ =============================================*/
+  /*=================================	Start секция ivanovo АДАПТИВ =============================================*/
+  section#suzdal img#suzdal {
+    width: 20%;
+  }
+  /*=================================	End секция ivanovo АДАПТИВ =============================================*/
+  /*=================================	Start секция ivanovo АДАПТИВ =============================================*/
+  section#vladimir img#vladimir {
+    width: 20%;
+  }
+  /*=================================	End секция ivanovo АДАПТИВ =============================================*/
+  /*=================================	End секция Footer АДАПТИВ =============================================*/
+  section#footer i.fa-facebook-square {
+    position: absolute;
+    top: 27.5%;
+    left: 83.5%;
+    font-size: 28px;
+    color: white;
+  }
+  section#footer i.fa-tripadvisor {
+    position: absolute;
+    margin-top: -2.7%;
+    left: 87%;
+    font-size: 27px;
+    color: white;
+  }
+  section#footer p.propety {
+    font-size: 13px;
+  }
+  /*=================================	End секция Footer АДАПТИВ =============================================*/
+}
+/* Media on min-width:992px and max-width:1200px*/
+@media (min-width: 1501px) and (max-width: 1700px) {
+  /*=================================	Start секция Header АДАПТИВ =============================================*/
+  header .container {
+    width: 80%;
+    background-color: #fffff0;
+    margin-bottom: 10px;
+  }
+  header h1 {
+    font-size: 48px;
+    margin-top: 0%;
+    margin-left: 15%;
+  }
+  header h4 {
+    font-size: 19px;
+    margin-top: -1rem;
+    margin-left: 12rem;
+  }
+  header a {
+    margin-top: 1%;
+    margin-left: 35%;
+  }
+  header p {
+    font-size: 20px;
+    margin-top: -4.5%;
+    margin-left: 64%;
+    margin-bottom: 5%;
+  }
+  /*=================================	End секция Header АДАПТИВ =============================================*/
+  /*=================================	Start секция Menu АДАПТИВ =============================================*/
+  section#menu .container {
+    width: 80%;
+    background: #37915b;
+    margin-top: 10px;
+  }
+  section#menu .container .dws-menu * {
+    margin: 0;
+    padding: 0;
+  }
+  section#menu .container .dws-menu ul,
+  section#menu .container .dws-menu ol {
+    list-style: none;
+  }
+  section#menu .container .dws-menu ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  section#menu .container .dws-menu > ul li a {
+    display: block;
+    background: #37915b;
+    padding: 10px 13px 10px 40px;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: white;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  section#menu .container .dws-menu > ul li {
+    position: relative;
+    border-right: 1px solid darkgreen;
+  }
+  section#menu .container .dws-menu > ul li > a i.fa {
+    position: absolute;
+    top: 11px;
+    left: 12px;
+    font-size: 20px;
+  }
+  section#menu .container .dws-menu > ul li:first-child {
+    border-left: 1px solid darkgreen;
+  }
+  section#menu .container .dws-menu > ul li:last-child {
+    border-right: 1px solid darkgreen;
+  }
+  section#menu .container .dws-menu li a:hover {
+    background: green;
+    /*Цвает при наведении на кнопку */
+    color: Gray;
+    -webkit-box-shadow: 1px 5px 10px -5px #ffffff;
+            box-shadow: 1px 5px 10px -5px #ffffff;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  section#menu .container .dws-menu li ul {
+    position: absolute;
+    min-width: 150px;
+    display: none;
+  }
+  section#menu .container .dws-menu li > ul li {
+    border: 1px solid darkgreen;
+  }
+  section#menu .container .dws-menu li > ul li a {
+    padding: 10px;
+    text-transform: none;
+    background: green;
+  }
+  section#menu .container .dws-menu li:hover > ul {
+    display: block;
+    z-index: 99999;
+  }
+  section#menu .container .fa {
+    margin-top: -4px;
+    margin-left: -2px;
+  }
+  /*=================================	End секция Menu АДАПТИВ =============================================*/
+  /*=================================	Start секция Main АДАПТИВ =============================================*/
+  section#main .card {
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #1E90FF;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#main .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  /*=================================	End секция Main АДАПТИВ =============================================*/
+  /*=================================	Start секция Main АДАПТИВ =============================================*/
+  section#transfers .card {
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #1E90FF;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#transfers .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  /*=================================	End секция Transfers АДАПТИВ =============================================*/
+  /*=================================	Start секция Transfers АДАПТИВ =============================================*/
+  section#tours_main .card {
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #1E90FF;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#tours_main .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#tours_main .main_buttons button#get_info {
+    border: none;
+    background-color: #37915b;
+    padding: 7px 25px;
+    color: #FFFFF0;
+    font-size: 10px;
+    font-family: "News701BT-RomanA";
+    text-transform: uppercase;
+    border: 2px solid #37915b;
+  }
+  section#tours_main h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: green;
+  }
+  /*=================================	End секция Tours Main АДАПТИВ =============================================*/
+  /*=================================	Start секция Tours Main АДАПТИВ =============================================*/
+  section#transfers_msk .card {
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5%;
+    width: 90%;
+    height: 100%;
+    border: 2px solid #1E90FF;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#transfers_msk .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#transfers_msk button#get_infomsk {
+    display: block;
+    margin: auto;
+    border: none;
+    background-color: #37915b;
+    padding: 10px 23px;
+    margin-bottom: 10px;
+    color: #FFFFF0;
+    font-size: 12px;
+    font-family: "News701BT-RomanA";
+    text-transform: uppercase;
+    border: 2px solid #37915b;
+  }
+  section#transfers_msk button#get_infomsk:hover {
+    background-color: #FFFFF0;
+    color: #37915b;
+    border: 2px solid #37915b;
+  }
+  section#transfers_msk h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1E90FF;
+  }
+  /*=================================	End секция Transfer MCK АДАПТИВ =============================================*/
+  /*=================================	Start секция Transfer MCK АДАПТИВ =============================================*/
+  section#transfers_spb .card {
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5%;
+    width: 90%;
+    height: 100%;
+    border: 2px solid #1E90FF;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#transfers_spb .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#transfers_spb button#get_info_spb {
+    display: block;
+    margin: auto;
+    border: none;
+    background-color: #37915b;
+    padding: 10px 23px;
+    margin-bottom: 10px;
+    color: #FFFFF0;
+    font-size: 12px;
+    font-family: "News701BT-RomanA";
+    text-transform: uppercase;
+    border: 2px solid #37915b;
+  }
+  section#transfers_spb button#get_info_spb:hover {
+    background-color: #FFFFF0;
+    color: #37915b;
+    border: 2px solid #37915b;
+  }
+  section#transfers_spb h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1E90FF;
+  }
+  /*=================================	End секция Transfer SPb АДАПТИВ =============================================*/
+  /*=================================	Start секция Transfer SPb АДАПТИВ =============================================*/
+  section#free_time_msk .card {
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5%;
+    width: 90%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#free_time_msk .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#free_time_msk h4 {
+    color: #556B2F;
+  }
+  section#free_time_msk img {
+    width: 30%;
+    height: 0%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  section#free_time_msk .card-main {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 3%;
+    width: 95%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#free_time_msk .card-main:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#free_time_msk .card-interest {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 3%;
+    width: 95%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#free_time_msk .card-interest:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#free_time_msk .card-sm {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5%;
+    width: 91%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#free_time_msk .card-sm:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  /*=================================	End секция Free time MCK АДАПТИВ =============================================*/
+  /*=================================	Start секция Free time SPb АДАПТИВ =============================================*/
+  section#free_time_spb .card {
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5%;
+    width: 90%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#free_time_spb .card:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#free_time_spb h4 {
+    color: #556B2F;
+  }
+  section#free_time_spb img {
+    display: block;
+    width: 30%;
+    height: 0%;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  section#free_time_spb p#plan {
+    margin-left: 10%;
+  }
+  /*=================================	End секция Free time SPb АДАПТИВ =============================================*/
+  /*=================================	Start секция Free time Golden АДАПТИВ =============================================*/
+  section#golden .container {
+    margin-top: 10px;
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+  }
+  section#golden .card-gold {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15%;
+    width: 50%;
+    height: 90%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: #fffff0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  section#golden .card-gold:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  section#golden h2 {
+    text-align: center;
+    font-size: 23px;
+  }
+  section#golden h3 {
+    font-size: 15px;
+  }
+  section#golden img {
+    margin-bottom: -14px;
+  }
+  section#golden img#sergiev {
+    margin-top: 5px;
+    width: 55%;
+  }
+  /*=================================	End секция Golden  АДАПТИВ =============================================*/
+  /*=================================	Start секция Pereslavl  АДАПТИВ =============================================*/
+  section#pereslavl_zalessky img#pereslavl {
+    width: 20%;
+  }
+  /*=================================	End секция Pereslavl АДАПТИВ =============================================*/
+  /*=================================	Start секция Rostov АДАПТИВ =============================================*/
+  section#rostov_great img#rostov {
+    width: 20%;
+  }
+  /*=================================	End секция Rostov АДАПТИВ =============================================*/
+  /*=================================	Start секция Yaroslavl АДАПТИВ =============================================*/
+  section#yaroslavl img#yaroslavl {
+    width: 15%;
+  }
+  section#yaroslavl img {
+    width: 80%;
+  }
+  /*=================================	End секция Yaroslavl АДАПТИВ =============================================*/
+  /*=================================	Start секция kostroma АДАПТИВ =============================================*/
+  section#kostroma img#kostroma {
+    width: 20%;
+  }
+  section#kostroma img {
+    width: 100%;
+  }
+  /*=================================	End секция kostroma АДАПТИВ =============================================*/
+  /*=================================	Start секция ivanovo АДАПТИВ =============================================*/
+  section#ivanovo img#ivanovo {
+    width: 20%;
+  }
+  /*=================================	End секция ivanovo АДАПТИВ =============================================*/
+  /*=================================	Start секция ivanovo АДАПТИВ =============================================*/
+  section#suzdal img#suzdal {
+    width: 20%;
+  }
+  /*=================================	End секция ivanovo АДАПТИВ =============================================*/
+  /*=================================	Start секция ivanovo АДАПТИВ =============================================*/
+  section#vladimir img#vladimir {
+    width: 20%;
+  }
+  /*=================================	End секция ivanovo АДАПТИВ =============================================*/
+  /*=================================	End секция Footer АДАПТИВ =============================================*/
+  section#footer i.fa-facebook-square {
+    position: absolute;
+    top: 27.5%;
+    left: 82%;
+    font-size: 28px;
+    color: white;
+  }
+  section#footer i.fa-tripadvisor {
+    position: absolute;
+    margin-top: -2.2%;
+    left: 85%;
+    font-size: 27px;
+    color: white;
+  }
+  section#footer p.propety {
+    font-size: 13px;
+  }
+  /*=================================	End секция Footer АДАПТИВ =============================================*/
+}
+/* Media on max-width:1700px*/

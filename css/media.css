@@ -1,0 +1,10 @@
+a:hover,
+a:focus,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+button:focus {
+  outline: none;
+}
+/*========================Адаптив================================*/
